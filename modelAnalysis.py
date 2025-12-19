@@ -1,7 +1,3 @@
-"""
-Model Performans Analizi ve Görselleştirme
-PNG grafikler ve tablolar oluşturur
-"""
 
 import pandas as pd
 import numpy as np
@@ -17,7 +13,6 @@ from sklearn.metrics import mean_absolute_error, r2_score, mean_squared_error
 import warnings
 warnings.filterwarnings('ignore')
 
-# Stil ayarları
 plt.style.use('seaborn-v0_8-darkgrid')
 sns.set_palette("husl")
 
@@ -25,9 +20,6 @@ print("="*60)
 print("MODEL PERFORMANS ANALIZI")
 print("="*60)
 
-# ============================================
-# VERİ YÜKLEME VE HAZIRLIK
-# ============================================
 
 print("\n[1/6] Veri yukleniyor...")
 df = pd.read_csv('model_icin_hazir_veri.csv', decimal=',', thousands='.')
@@ -37,7 +29,6 @@ df.dropna(inplace=True)
 
 print(f"  {len(df)} sarki yuklendi")
 
-# Feature engineering
 current_year = datetime.now().year
 df['song_age'] = current_year - df['release_date'].dt.year
 
@@ -50,19 +41,16 @@ df_model['pop_per_age'] = df_model['artist_popularity'] / (df_model['song_age'] 
 df_model['artist_flw_x_dance'] = df_model['artist_followers'] * df_model['danceability']
 df_model['followers_log'] = np.log1p(df_model['artist_followers'])
 
-# Popülerlik filtresi
 df_model = df_model[(df_model['song_popularity'] >= 20) & (df_model['song_popularity'] <= 70)]
 
 X = df_model.drop('song_popularity', axis=1)
 y = df_model['song_popularity']
 
-# One-hot encoding
 X = pd.get_dummies(X, columns=['genre'], drop_first=True)
 
-# Train-test split
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3, random_state=42)
 
-# Scaling
+
 scaler = StandardScaler()
 X_train_scaled = scaler.fit_transform(X_train)
 X_test_scaled = scaler.transform(X_test)
@@ -71,16 +59,12 @@ print(f"  Train set: {len(X_train)} sarki")
 print(f"  Test set: {len(X_test)} sarki")
 print(f"  Ozellik sayisi: {X_train.shape[1]}")
 
-# ============================================
-# MODEL EĞİTİMİ
-# ============================================
 
 print("\n[2/6] Modeller egitiliyor...")
 
 models = {}
 predictions = {}
 
-# Random Forest
 print("  Random Forest...")
 rf = RandomForestRegressor(n_estimators=100, max_depth=10, min_samples_split=5, 
                            min_samples_leaf=2, random_state=42, n_jobs=-1)
@@ -88,7 +72,6 @@ rf.fit(X_train_scaled, y_train)
 models['Random Forest'] = rf
 predictions['Random Forest'] = rf.predict(X_test_scaled)
 
-# XGBoost
 print("  XGBoost...")
 xgb_model = XGBRegressor(n_estimators=100, max_depth=6, learning_rate=0.1, 
                          subsample=0.8, colsample_bytree=0.8, random_state=42, n_jobs=-1)
@@ -96,7 +79,6 @@ xgb_model.fit(X_train_scaled, y_train)
 models['XGBoost'] = xgb_model
 predictions['XGBoost'] = xgb_model.predict(X_test_scaled)
 
-# CatBoost
 print("  CatBoost...")
 cb = CatBoostRegressor(iterations=100, depth=6, learning_rate=0.1, random_state=42, verbose=False)
 cb.fit(X_train_scaled, y_train)
@@ -105,9 +87,7 @@ predictions['CatBoost'] = cb.predict(X_test_scaled)
 
 print("  Tamamlandi!")
 
-# ============================================
-# PERFORMANS METRİKLERİ
-# ============================================
+
 
 print("\n[3/6] Performans metrikleri hesaplaniyor...")
 
@@ -134,9 +114,6 @@ for name, y_pred in predictions.items():
 
 results_df = pd.DataFrame(results)
 
-# ============================================
-# GRAFİK 1: MODEL KARŞILAŞTIRMA TABLOSU
-# ============================================
 
 print("\n[4/6] Model karsilastirma tablosu olusturuluyor...")
 
@@ -154,12 +131,10 @@ table.auto_set_font_size(False)
 table.set_fontsize(10)
 table.scale(1, 2)
 
-# Header stil
 for i in range(len(results_df.columns)):
     table[(0, i)].set_facecolor('#4CAF50')
     table[(0, i)].set_text_props(weight='bold', color='white')
 
-# En iyi değerleri vurgula
 best_mae_idx = results_df['MAE'].idxmin() + 1
 best_r2_idx = results_df['R2'].idxmax() + 1
 
@@ -170,15 +145,12 @@ plt.title('Model Karsilastirma Tablosu', fontsize=14, fontweight='bold', pad=20)
 plt.savefig('1_model_comparison_table.png', dpi=300, bbox_inches='tight', facecolor='white')
 print("  Kaydedildi: 1_model_comparison_table.png")
 
-# ============================================
-# GRAFİK 2: MAE & R2 KARŞILAŞTIRMA
-# ============================================
+
 
 print("\n[5/6] Metrik karsilastirma grafikleri olusturuluyor...")
 
 fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(14, 5))
 
-# MAE
 colors_mae = ['#FF6B6B', '#4ECDC4', '#45B7D1']
 bars1 = ax1.barh(results_df['Model'], results_df['MAE'], color=colors_mae)
 ax1.set_xlabel('Mean Absolute Error (MAE)', fontsize=11, fontweight='bold')
@@ -190,7 +162,6 @@ for i, bar in enumerate(bars1):
     ax1.text(width + 0.2, bar.get_y() + bar.get_height()/2, 
              f'{width:.2f}', ha='left', va='center', fontweight='bold')
 
-# R²
 colors_r2 = ['#95E1D3', '#F38181', '#AA96DA']
 bars2 = ax2.barh(results_df['Model'], results_df['R2'], color=colors_r2)
 ax2.set_xlabel('R² Score', fontsize=11, fontweight='bold')
@@ -206,9 +177,7 @@ plt.tight_layout()
 plt.savefig('2_metrics_comparison.png', dpi=300, bbox_inches='tight', facecolor='white')
 print("  Kaydedildi: 2_metrics_comparison.png")
 
-# ============================================
-# GRAFİK 3: FEATURE IMPORTANCE
-# ============================================
+
 
 print("\n[6/6] Feature importance grafigi olusturuluyor...")
 
@@ -235,9 +204,7 @@ plt.tight_layout()
 plt.savefig('3_feature_importance.png', dpi=300, bbox_inches='tight', facecolor='white')
 print("  Kaydedildi: 3_feature_importance.png")
 
-# ============================================
-# GRAFİK 4: TAHMIN vs GERÇEK
-# ============================================
+
 
 print("\n[BONUS] Tahmin vs Gercek grafigi olusturuluyor...")
 
@@ -248,7 +215,6 @@ for idx, (name, y_pred) in enumerate(predictions.items()):
     
     ax.scatter(y_test, y_pred, alpha=0.5, s=20, edgecolors='k', linewidth=0.5)
     
-    # Diagonal line (perfect prediction)
     min_val = min(y_test.min(), y_pred.min())
     max_val = max(y_test.max(), y_pred.max())
     ax.plot([min_val, max_val], [min_val, max_val], 'r--', lw=2, label='Perfect Prediction')
@@ -263,9 +229,7 @@ plt.tight_layout()
 plt.savefig('4_prediction_scatter.png', dpi=300, bbox_inches='tight', facecolor='white')
 print("  Kaydedildi: 4_prediction_scatter.png")
 
-# ============================================
-# GRAFİK 5: HATA DAĞILIMI
-# ============================================
+
 
 print("\n[BONUS] Hata dagilimi grafigi olusturuluyor...")
 
@@ -289,9 +253,6 @@ plt.tight_layout()
 plt.savefig('5_error_distribution.png', dpi=300, bbox_inches='tight', facecolor='white')
 print("  Kaydedildi: 5_error_distribution.png")
 
-# ============================================
-# ÖZET
-# ============================================
 
 print("\n" + "="*60)
 print("ANALIZ TAMAMLANDI!")

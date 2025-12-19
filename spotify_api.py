@@ -10,12 +10,10 @@ print("Spotify API'ye bağlanıyor...")
 auth_manager = SpotifyClientCredentials(client_id=CLIENT_ID, client_secret=CLIENT_SECRET)
 sp = spotipy.Spotify(auth_manager=auth_manager)
 
-# Mevcut veriyi yükle
 print("Mevcut veri yükleniyor...")
 df = pd.read_csv('spotify_data.csv')
 print(f"Toplam {len(df)} şarkı bulundu.")
 
-# Track ID'leri çekmek için playlist'ten tekrar çek
 playlist_id = "2XvPIcOrbpieXZD4RmCujC"
 print(f"Playlist'ten track ID'leri çekiliyor...")
 
@@ -28,7 +26,6 @@ while results['next']:
 
 print(f"Toplam {len(all_items)} track bulundu.")
 
-# Track ID'leri topla
 track_ids = []
 track_names = []
 for item in all_items:
@@ -39,7 +36,6 @@ for item in all_items:
 
 print(f"\n{len(track_ids)} şarkı için audio features çekiliyor...")
 
-# Audio features çek (100'lük gruplar halinde)
 audio_features_list = []
 for i in range(0, len(track_ids), 100):
     batch = track_ids[i:i+100]
@@ -47,15 +43,13 @@ for i in range(0, len(track_ids), 100):
         print(f"  {i+1}-{min(i+100, len(track_ids))} arası çekiliyor...")
         features = sp.audio_features(batch)
         audio_features_list.extend(features)
-        sleep(0.5)  # Rate limit için
+        sleep(0.5) 
     except Exception as e:
         print(f"  HATA: {e}")
-        # Hata olursa None ekle
         audio_features_list.extend([None] * len(batch))
 
 print(f"\nAudio features başarıyla çekildi!")
 
-# Audio features'ları dataframe'e dönüştür
 audio_data = []
 for idx, af in enumerate(audio_features_list):
     if af:
@@ -73,7 +67,6 @@ for idx, af in enumerate(audio_features_list):
             'mode': af.get('mode', 0)
         })
     else:
-        # Eğer audio feature yoksa 0'larla doldur
         audio_data.append({
             'danceability': 0, 'energy': 0, 'loudness': 0,
             'speechiness': 0, 'acousticness': 0, 'instrumentalness': 0,
@@ -82,20 +75,16 @@ for idx, af in enumerate(audio_features_list):
 
 df_audio = pd.DataFrame(audio_data)
 
-# Boyut kontrolü
 if len(df) != len(df_audio):
     print(f"\nUYARI: Boyut uyuşmazlığı! df={len(df)}, audio={len(df_audio)}")
-    # Küçük olanı al
     min_len = min(len(df), len(df_audio))
     df = df.iloc[:min_len]
     df_audio = df_audio.iloc[:min_len]
     print(f"Her iki dataframe de {min_len} satıra kesildi.")
 
-# Birleştir
 print("\nDataframe'ler birleştiriliyor...")
 df_final = pd.concat([df.reset_index(drop=True), df_audio.reset_index(drop=True)], axis=1)
 
-# Kaydet
 output_file = 'spotify_full_data.csv'
 df_final.to_csv(output_file, index=False, encoding='utf-8')
 

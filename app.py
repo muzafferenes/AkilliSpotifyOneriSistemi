@@ -1,7 +1,4 @@
-"""
-Spotify Hit Prediction & Recommendation System
-Streamlit Web Uygulaması
-"""
+
 
 import streamlit as st
 import pandas as pd
@@ -15,14 +12,14 @@ from xgboost import XGBRegressor
 from catboost import CatBoostRegressor
 from sklearn.metrics.pairwise import cosine_similarity
 
-# Sayfa ayarları
+
 st.set_page_config(
     page_title="Spotify ML Projesi",
     page_icon="♪",
     layout="wide"
 )
 
-# CSS - Sadece kartlar için
+
 st.markdown("""
 <style>
     .metric-card {
@@ -39,9 +36,6 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
-# ============================================
-# VERİ YÜKLEME VE MODEL EĞİTİMİ
-# ============================================
 
 @st.cache_data
 def load_and_prepare_data():
@@ -50,7 +44,7 @@ def load_and_prepare_data():
     df['release_date'] = pd.to_datetime(df['release_date'], format='%d-%m-%Y', errors='coerce')
     df.dropna(inplace=True)
     
-    # Özellik mühendisliği
+
     current_year = datetime.now().year
     df['song_age'] = current_year - df['release_date'].dt.year
     
@@ -60,11 +54,7 @@ def load_and_prepare_data():
 def train_models(df):
     """Modelleri eğit"""
     df_model = df.copy()
-    
-    # Gereksiz sütunları çıkar
     df_model = df_model.drop(columns=['name', 'artist', 'album', 'release_date', 'duration(min)'])
-    
-    # Feature engineering
     df_model['artist_pop_x_energy'] = df_model['artist_popularity'] * df_model['energy']
     df_model['energy_x_valence'] = df_model['energy'] * df_model['valence']
     df_model['dance_+_energy'] = df_model['danceability'] + df_model['energy']
@@ -78,61 +68,50 @@ def train_models(df):
     X = df_model.drop('song_popularity', axis=1)
     y = df_model['song_popularity']
     
-    # One-hot encoding
+
     X = pd.get_dummies(X, columns=['genre'], drop_first=True)
-    
-    # Train-test split
+
     X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3, random_state=42)
     
-    # Scaling
+
     scaler = StandardScaler()
     X_train_scaled = scaler.fit_transform(X_train)
     X_test_scaled = scaler.transform(X_test)
-    
-    # Modelleri eğit
+
     models = {}
-    
-    # Random Forest
+
     rf = RandomForestRegressor(n_estimators=100, max_depth=10, random_state=42, n_jobs=-1)
     rf.fit(X_train_scaled, y_train)
     models['Random Forest'] = rf
-    
-    # XGBoost
+
     xgb = XGBRegressor(n_estimators=100, max_depth=6, learning_rate=0.1, random_state=42, n_jobs=-1)
     xgb.fit(X_train_scaled, y_train)
     models['XGBoost'] = xgb
-    
-    # CatBoost
+
     cb = CatBoostRegressor(iterations=100, depth=6, learning_rate=0.1, random_state=42, verbose=False)
     cb.fit(X_train_scaled, y_train)
     models['CatBoost'] = cb
     
     return models, scaler, X.columns
 
-# ============================================
-# ÖNERİ SİSTEMİ
-# ============================================
-
 def get_recommendations(df, selected_indices, n_recommendations=10):
     """Content-based öneri sistemi"""
     audio_features = ['danceability', 'energy', 'valence', 'tempo']
     
-    # Feature matrix
     feature_matrix = df[audio_features].values
     
-    # Seçilen şarkıların ortalama profili
     user_profile = feature_matrix[selected_indices].mean(axis=0).reshape(1, -1)
     
-    # Benzerlik hesapla
+    
     similarities = cosine_similarity(user_profile, feature_matrix)[0]
     
-    # Seçilen şarkıları çıkar
+   
     mask = np.ones(len(similarities), dtype=bool)
     mask[selected_indices] = False
     similarities_filtered = similarities.copy()
     similarities_filtered[~mask] = -1
     
-    # En benzer şarkıları al
+
     top_indices = similarities_filtered.argsort()[-n_recommendations:][::-1]
     
     recommendations = df.iloc[top_indices].copy()
@@ -140,34 +119,26 @@ def get_recommendations(df, selected_indices, n_recommendations=10):
     
     return recommendations
 
-# ============================================
-# ANA UYGULAMA
-# ============================================
 
-# Ana başlık
+
+
 st.title("Spotify Hit Tahmin ve Öneri Sistemi")
 st.markdown("Machine Learning ile Şarkı Popülerlik Tahmini ve Kişiselleştirilmiş Öneri")
 st.markdown("---")
 
-# Veriyi yükle
+
 with st.spinner('Veri yükleniyor...'):
     df = load_and_prepare_data()
 
-# Modelleri eğit
+
 with st.spinner('Modeller eğitiliyor...'):
     models, scaler, feature_names = train_models(df)
 
 st.success(f'{len(df)} şarkı yüklendi ve modeller eğitildi!')
 
-# ============================================
-# TABS
-# ============================================
 
 tab1, tab2 = st.tabs(["Hit Tahmin", "Şarkı Öneri"])
 
-# ============================================
-# TAB 1: HIT TAHMİN
-# ============================================
 
 with tab1:
     st.header("Hit Tahmin Sistemi")
@@ -192,7 +163,7 @@ with tab1:
                                        'indie-pop', 'klasik-rock', 'pop-rock', 'funk-rock', 'old-rap', 'alt-rap', 'other'])
     
     if st.button("Tahmin Yap", type="primary"):
-        # Feature engineering
+        
         input_data = {
             'artist_followers': artist_followers,
             'artist_popularity': artist_pop,
@@ -209,27 +180,26 @@ with tab1:
             'followers_log': np.log1p(artist_followers)
         }
         
-        # Genre one-hot encoding
+   
         for col in feature_names:
             if col.startswith('genre_'):
                 genre_name = col.replace('genre_', '')
                 input_data[col] = 1 if genre == genre_name else 0
         
-        # DataFrame oluştur
+       
         input_df = pd.DataFrame([input_data])
         
-        # Eksik kolonları ekle
+    
         for col in feature_names:
             if col not in input_df.columns:
                 input_df[col] = 0
         
-        # Sıralama
+       
         input_df = input_df[feature_names]
         
-        # Scale et
         input_scaled = scaler.transform(input_df)
         
-        # Tahmin yap
+      
         st.markdown("---")
         st.subheader("Tahmin Sonuçları")
         
@@ -246,7 +216,7 @@ with tab1:
                 </div>
                 """, unsafe_allow_html=True)
         
-        # Ortalama
+     
         avg_pred = np.mean([model.predict(input_scaled)[0] for model in models.values()])
         st.markdown(f"### Ortalama Tahmin: **{avg_pred:.1f}**")
         
@@ -257,18 +227,15 @@ with tab1:
         else:
             st.warning("Düşük popülerlik bekleniyor")
 
-# ============================================
-# TAB 2: ŞARKı ÖNERİ
-# ============================================
 
 with tab2:
     st.header("Şarkı Öneri Sistemi")
     st.markdown("Beğendiğiniz şarkılara benzer şarkılar keşfedin")
     
-    # Şarkı seçimi
+  
     st.subheader("Şarkı Seçin (3-5 tane)")
     
-    # Arama kutusu
+  
     search = st.text_input("Şarkı Ara", placeholder="Şarkı adı veya sanatçı...")
     
     if search:
@@ -277,23 +244,22 @@ with tab2:
     else:
         filtered_df = df.head(50)
     
-    # Şarkı listesi
+  
     song_options = [f"{row['name']} - {row['artist']}" for idx, row in filtered_df.iterrows()]
     selected_songs = st.multiselect("Şarkılarınızı seçin:", song_options, max_selections=5)
     
     if len(selected_songs) >= 3:
         if st.button("Benzer Şarkıları Bul", type="primary"):
-            # Seçilen şarkıların index'lerini bul
+        
             selected_indices = []
             for song in selected_songs:
                 song_name = song.split(' - ')[0]
                 idx = df[df['name'] == song_name].index[0]
                 selected_indices.append(idx)
-            
-            # Önerileri al
+     
             recommendations = get_recommendations(df, selected_indices, n_recommendations=10)
             
-            # Kullanıcı profili
+   
             st.markdown("---")
             st.subheader("Müzik Profiliniz")
             
@@ -305,7 +271,7 @@ with tab2:
             col3.metric("Valence", f"{user_profile['valence']:.2f}")
             col4.metric("Tempo", f"{user_profile['tempo']:.0f} BPM")
             
-            # Radar chart
+            
             categories = ['Danceability', 'Energy', 'Valence']
             values = [user_profile['danceability'], user_profile['energy'], user_profile['valence']]
             
@@ -323,7 +289,7 @@ with tab2:
             )
             st.plotly_chart(fig, use_container_width=True)
             
-            # Öneriler
+           
             st.markdown("---")
             st.subheader("Size Özel Şarkı Önerileri")
             
@@ -349,7 +315,7 @@ with tab2:
     else:
         st.info("Yukarıdan şarkı arayın ve seçin")
 
-# Footer
+
 st.markdown("---")
 st.markdown("""
 <div style='text-align: center; color: #888; font-size: 0.9rem;'>

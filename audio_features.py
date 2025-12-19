@@ -1,15 +1,10 @@
-"""
-ADIM 2: Veri İşleme, Temizleme ve Audio Features Ekleme
-Genre bazlı audio features üretir
-"""
+
 
 import pandas as pd
 import json
 import random
 
-# ============================================
-# YARDIMCI FONKSİYONLAR
-# ============================================
+
 
 def ms_to_min_sec(ms): 
     """Milisaniyeyi dakika:saniye formatına çevir"""
@@ -41,9 +36,7 @@ def normalize_turkish(name):
     name = name.replace("ö", "o")
     return name
 
-# ============================================
-# GENRE PROFİLLERİ
-# ============================================
+
 
 genre_profiles = {
     "trap": {"danceability": 0.71, "energy": 0.60, "valence": 0.45, "tempo": 142},
@@ -66,7 +59,6 @@ def generate_features_from_profile(row):
     genre = row["genre"]
     base_profile = genre_profiles.get(genre, genre_profiles["other"])
     
-    # Rastgele sapma ekle
     new_danceability = max(0.0, min(1.0, random.uniform(
         base_profile["danceability"] - 0.05, 
         base_profile["danceability"] + 0.05
@@ -91,26 +83,23 @@ def generate_features_from_profile(row):
         "tempo": round(new_tempo, 0)
     })
 
-# ============================================
-# ANA KOD
-# ============================================
 
 try:
-    random.seed(42)  # Reproducibility için
+    random.seed(42)  
     
-    # CSV'yi yükle
+
     df = pd.read_csv('spotify_temel_liste.csv')
     print(f"[OK] {len(df)} sarki yuklendi")
     
-    # JSON'dan genre haritasını yükle
+
     json_dosya_yolu = "sanatciler_ve_turleri.json"
     with open(json_dosya_yolu, 'r', encoding='utf-8') as f:
         artist_genres = json.load(f)
     
-    # Türkçe karakterleri normalize et
+
     artist_genres_normalized = {normalize_turkish(k): v for k, v in artist_genres.items()}
     
-    # Her sanatçıya genre ata
+
     df["genre"] = df["artist"].apply(
         lambda x: artist_genres_normalized.get(normalize_turkish(x), "other")
     )
@@ -118,30 +107,26 @@ try:
     print(f"\nGenre dagilimi:")
     print(df["genre"].value_counts())
     
-    # Audio features üret
+   
     print("\nAudio features uretiliyor...")
     audio_features = df.apply(generate_features_from_profile, axis=1)
     
-    # Birleştir
+  
     df_final = pd.concat([df, audio_features], axis=1)
     
-    # Tarih formatını düzenle
+  
     df_final['release_date'] = df_final['release_date'].apply(complete_date)
     df_final['release_date_dt'] = pd.to_datetime(df_final['release_date'], errors='coerce')
     df_final['release_date'] = df_final['release_date_dt'].dt.strftime('%d-%m-%Y')
-    
-    # Takipçi sayısını formatla (binlik ayırıcı)
+
     df_final['artist_followers'] = df_final['artist_followers'].apply(
         lambda x: f"{int(x):,}".replace(',', '.')
     )
     
-    # Duration'ı formatla
     df_final['duration(min)'] = df_final['duration_ms'].apply(ms_to_min_sec)
     
-    # Gereksiz kolonları sil
     df_final = df_final.drop(columns=['duration_ms', 'artist_genres', 'release_date_dt'], errors='ignore')
     
-    # Kaydet
     final_dosya_adi = "model_icin_hazir_veri.csv"
     df_final.to_csv(final_dosya_adi, index=False, encoding='utf-8', decimal=',')
     

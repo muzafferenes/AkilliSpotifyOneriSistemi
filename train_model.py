@@ -14,34 +14,27 @@ from xgboost import XGBRegressor
 from catboost import CatBoostRegressor
 import matplotlib.pyplot as plt
 
-# ============================================
-# VERİ YÜKLEME VE TEMİZLEME
-# ============================================
+
 
 print("📂 Veri yükleniyor...")
 df = pd.read_csv('model_icin_hazir_veri.csv', decimal=',', thousands='.')
 
-# Tarihi parse et
+
 df['release_date'] = pd.to_datetime(df['release_date'], format='%d-%m-%Y', errors='coerce')
 
-# Eksik tarihleri temizle
 df.dropna(inplace=True)
 print(f"✅ {len(df)} şarkı yüklendi (temizleme sonrası)")
 
-# ============================================
-# ÖZELLİK MÜHENDİSLİĞİ (Feature Engineering)
-# ============================================
+
 
 print("\n🔧 Özellik mühendisliği yapılıyor...")
 
-# Şarkının yaşı
+
 current_year = datetime.now().year
 df['song_age'] = current_year - df['release_date'].dt.year
 
-# Gereksiz sütunları çıkar
 df = df.drop(columns=['name', 'artist', 'album', 'release_date', 'duration(min)'])
 
-# Etkileşim özellikleri
 df['artist_pop_x_energy'] = df['artist_popularity'] * df['energy']
 df['energy_x_valence'] = df['energy'] * df['valence']
 df['dance_+_energy'] = df['danceability'] + df['energy']
@@ -51,31 +44,26 @@ df['followers_log'] = np.log1p(df['artist_followers'])
 
 print(f"  ✅ {6} yeni özellik eklendi")
 
-# ============================================
-# POPÜLERLİK FİLTRESİ
-# ============================================
+
 
 print("\n🎯 Popülerlik aralığı filtreleniyor (20-70)...")
 initial_len = len(df)
 df = df[(df['song_popularity'] >= 20) & (df['song_popularity'] <= 70)]
 print(f"  {len(df)} şarkı kaldı ({initial_len - len(df)} filtrelendi)")
 
-# ============================================
-# VERİ HAZIRLIĞI
-# ============================================
+
 
 X = df.drop('song_popularity', axis=1)
 y = df['song_popularity']
 
-# One-Hot Encoding (genre için)
+
 X = pd.get_dummies(X, columns=['genre'], drop_first=True)
 
-# Train-Test split
 X_train, X_test, y_train, y_test = train_test_split(
     X, y, test_size=0.3, random_state=42
 )
 
-# Scaling
+
 scaler = StandardScaler()
 X_train_scaled = scaler.fit_transform(X_train)
 X_test_scaled = scaler.transform(X_test)
@@ -84,9 +72,6 @@ print(f"\n📊 Train set: {len(X_train)} şarkı")
 print(f"📊 Test set: {len(X_test)} şarkı")
 print(f"📊 Toplam özellik: {X_train.shape[1]}")
 
-# ============================================
-# MODEL EĞİTİMİ VE KARŞILAŞTIRMA
-# ============================================
 
 def evaluate_model(model, X_test, y_test, model_name):
     """Modeli değerlendir"""
@@ -102,9 +87,6 @@ def evaluate_model(model, X_test, y_test, model_name):
     
     return {'model': model_name, 'MAE': mae, 'R2': r2, 'MAPE': mape}
 
-# ============================================
-# MODEL 1: RANDOM FOREST
-# ============================================
 
 print("\n" + "="*60)
 print("🌲 RANDOM FOREST EĞİTİLİYOR")
@@ -122,9 +104,6 @@ rf_model = RandomForestRegressor(
 rf_model.fit(X_train_scaled, y_train)
 rf_results = evaluate_model(rf_model, X_test_scaled, y_test, "Random Forest")
 
-# ============================================
-# MODEL 2: XGBOOST
-# ============================================
 
 print("\n" + "="*60)
 print("🚀 XGBOOST EĞİTİLİYOR")
@@ -143,9 +122,6 @@ xgb_model = XGBRegressor(
 xgb_model.fit(X_train_scaled, y_train)
 xgb_results = evaluate_model(xgb_model, X_test_scaled, y_test, "XGBoost")
 
-# ============================================
-# MODEL 3: CATBOOST
-# ============================================
 
 print("\n" + "="*60)
 print("🐱 CATBOOST EĞİTİLİYOR")
@@ -162,9 +138,6 @@ cb_model = CatBoostRegressor(
 cb_model.fit(X_train_scaled, y_train)
 cb_results = evaluate_model(cb_model, X_test_scaled, y_test, "CatBoost")
 
-# ============================================
-# KARŞILAŞTIRMA TABLOSU
-# ============================================
 
 print("\n" + "="*60)
 print("📊 MODEL KARŞILAŞTIRMASI")
@@ -177,9 +150,6 @@ print(comparison_df.to_string(index=False))
 best_model = comparison_df.loc[comparison_df['MAE'].idxmin(), 'model']
 print(f"\n🏆 En iyi model: {best_model}")
 
-# ============================================
-# FEATURE IMPORTANCE (Random Forest)
-# ============================================
 
 print("\n" + "="*60)
 print("🎯 EN ÖNEMLİ ÖZELLİKLER (Random Forest)")

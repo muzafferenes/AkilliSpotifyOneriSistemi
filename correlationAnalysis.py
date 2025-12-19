@@ -1,7 +1,3 @@
-"""
-Korelasyon Analizi ve Cross-Validation
-Ek analizler ve görselleştirmeler
-"""
 
 import pandas as pd
 import numpy as np
@@ -16,7 +12,6 @@ from catboost import CatBoostRegressor
 import warnings
 warnings.filterwarnings('ignore')
 
-# Stil ayarları
 plt.style.use('seaborn-v0_8-whitegrid')
 sns.set_palette("coolwarm")
 
@@ -24,9 +19,7 @@ print("="*60)
 print("KORELASYON ANALIZI VE CROSS-VALIDATION")
 print("="*60)
 
-# ============================================
-# VERİ YÜKLEME VE HAZIRLIK
-# ============================================
+
 
 print("\n[1/4] Veri yukleniyor...")
 df = pd.read_csv('model_icin_hazir_veri.csv', decimal=',', thousands='.')
@@ -36,7 +29,6 @@ df.dropna(inplace=True)
 
 print(f"  {len(df)} sarki yuklendi")
 
-# Feature engineering
 current_year = datetime.now().year
 df['song_age'] = current_year - df['release_date'].dt.year
 
@@ -49,19 +41,13 @@ df_model['pop_per_age'] = df_model['artist_popularity'] / (df_model['song_age'] 
 df_model['artist_flw_x_dance'] = df_model['artist_followers'] * df_model['danceability']
 df_model['followers_log'] = np.log1p(df_model['artist_followers'])
 
-# Popülerlik filtresi
 df_model = df_model[(df_model['song_popularity'] >= 20) & (df_model['song_popularity'] <= 70)]
 
-# ============================================
-# KORELASYON MATRİSİ - 1
-# ============================================
 
 print("\n[2/4] Korelasyon matrisleri olusturuluyor...")
 
-# Temel audio features korelasyonu
 fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(16, 6))
 
-# 1. Audio Features Korelasyonu
 audio_features = ['danceability', 'energy', 'valence', 'tempo', 
                   'artist_popularity', 'song_popularity']
 corr_audio = df_model[audio_features].corr()
@@ -72,12 +58,10 @@ sns.heatmap(corr_audio, mask=mask1, annot=True, fmt='.2f', cmap='coolwarm',
             ax=ax1, vmin=-1, vmax=1)
 ax1.set_title('Audio Features Korelasyon Matrisi', fontsize=13, fontweight='bold', pad=15)
 
-# 2. Tüm özellikler korelasyonu (popülerlikle)
 all_numeric = df_model.select_dtypes(include=[np.number])
 corr_with_pop = all_numeric.corr()['song_popularity'].sort_values(ascending=False)
 corr_with_pop = corr_with_pop.drop('song_popularity')
 
-# En yüksek 15 korelasyon
 top_corr = corr_with_pop.head(15)
 colors = ['green' if x > 0 else 'red' for x in top_corr.values]
 
@@ -90,7 +74,6 @@ ax2.set_title('Populerlik ile En Yuksek Korelasyonlar (Top 15)',
 ax2.axvline(x=0, color='black', linestyle='--', linewidth=1)
 ax2.grid(axis='x', alpha=0.3)
 
-# Değerleri göster
 for i, v in enumerate(top_corr.values):
     ax2.text(v + 0.01 if v > 0 else v - 0.01, i, f'{v:.3f}', 
              va='center', ha='left' if v > 0 else 'right', fontsize=8, fontweight='bold')
@@ -99,13 +82,10 @@ plt.tight_layout()
 plt.savefig('6_correlation_analysis.png', dpi=300, bbox_inches='tight', facecolor='white')
 print("  Kaydedildi: 6_correlation_analysis.png")
 
-# ============================================
-# KORELASYON MATRİSİ - 2 (Detaylı)
-# ============================================
+
 
 print("\n[3/4] Detayli korelasyon matrisi olusturuluyor...")
 
-# Sadece sayısal özellikler
 numeric_features = ['artist_followers', 'artist_popularity', 'song_popularity',
                     'danceability', 'energy', 'valence', 'tempo', 'song_age',
                     'artist_pop_x_energy', 'energy_x_valence', 'dance_+_energy',
@@ -115,7 +95,6 @@ corr_full = df_model[numeric_features].corr()
 
 fig, ax = plt.subplots(figsize=(12, 10))
 
-# Heatmap
 mask = np.triu(np.ones_like(corr_full, dtype=bool))
 sns.heatmap(corr_full, mask=mask, annot=True, fmt='.2f', cmap='RdYlBu_r',
             center=0, square=True, linewidths=1, cbar_kws={"shrink": 0.8},
@@ -129,24 +108,22 @@ plt.tight_layout()
 plt.savefig('7_full_correlation_matrix.png', dpi=300, bbox_inches='tight', facecolor='white')
 print("  Kaydedildi: 7_full_correlation_matrix.png")
 
-# ============================================
-# CROSS-VALIDATION
-# ============================================
+
 
 print("\n[4/4] Cross-validation yapiliyor...")
 
-# Veri hazırlığı
+
 X = df_model.drop('song_popularity', axis=1)
 y = df_model['song_popularity']
 
-# One-hot encoding
+
 X = pd.get_dummies(X, columns=['genre'], drop_first=True)
 
-# Scaling
+
 scaler = StandardScaler()
 X_scaled = scaler.fit_transform(X)
 
-# Modeller
+
 models_cv = {
     'Random Forest': RandomForestRegressor(n_estimators=100, max_depth=10, random_state=42, n_jobs=-1),
     'XGBoost': XGBRegressor(n_estimators=100, max_depth=6, learning_rate=0.1, random_state=42, n_jobs=-1),
@@ -158,7 +135,6 @@ cv_results = []
 for name, model in models_cv.items():
     print(f"\n  {name}...")
     
-    # 5-fold cross-validation
     cv_scores_mae = -cross_val_score(model, X_scaled, y, cv=5, 
                                       scoring='neg_mean_absolute_error', n_jobs=-1)
     cv_scores_r2 = cross_val_score(model, X_scaled, y, cv=5, 
@@ -177,9 +153,6 @@ for name, model in models_cv.items():
 
 cv_df = pd.DataFrame(cv_results)
 
-# ============================================
-# CROSS-VALIDATION SONUÇLARI TABLOSU
-# ============================================
 
 print("\n[BONUS] Cross-validation sonuc tablosu olusturuluyor...")
 
@@ -187,7 +160,6 @@ fig, ax = plt.subplots(figsize=(12, 4))
 ax.axis('tight')
 ax.axis('off')
 
-# Tabloyu oluştur
 table_data = []
 for _, row in cv_df.iterrows():
     table_data.append([
@@ -208,12 +180,10 @@ table.auto_set_font_size(False)
 table.set_fontsize(10)
 table.scale(1, 2.5)
 
-# Header stil
 for i in range(5):
     table[(0, i)].set_facecolor('#4CAF50')
     table[(0, i)].set_text_props(weight='bold', color='white')
 
-# En iyi değerleri vurgula
 best_mae_idx = cv_df['CV MAE Mean'].idxmin() + 1
 best_r2_idx = cv_df['CV R2 Mean'].idxmax() + 1
 
@@ -224,15 +194,12 @@ plt.title('5-Fold Cross-Validation Sonuclari', fontsize=14, fontweight='bold', p
 plt.savefig('8_cross_validation_results.png', dpi=300, bbox_inches='tight', facecolor='white')
 print("  Kaydedildi: 8_cross_validation_results.png")
 
-# ============================================
-# CROSS-VALIDATION GRAFİKLERİ
-# ============================================
 
 print("\n[BONUS] Cross-validation grafikleri olusturuluyor...")
 
 fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(14, 5))
 
-# MAE Comparison
+
 x_pos = np.arange(len(cv_df))
 colors = ['#FF6B6B', '#4ECDC4', '#45B7D1']
 
@@ -244,11 +211,11 @@ ax1.set_ylabel('MAE (Mean +/- Std)', fontweight='bold')
 ax1.set_title('Cross-Validation MAE Karsilastirmasi', fontweight='bold', fontsize=12)
 ax1.grid(axis='y', alpha=0.3)
 
-# Değerleri göster
+
 for i, (mean, std) in enumerate(zip(cv_df['CV MAE Mean'], cv_df['CV MAE Std'])):
     ax1.text(i, mean + std + 0.3, f'{mean:.2f}', ha='center', fontweight='bold')
 
-# R² Comparison
+
 ax2.bar(x_pos, cv_df['CV R2 Mean'], yerr=cv_df['CV R2 Std'], 
         color=colors, alpha=0.7, capsize=5, error_kw={'linewidth': 2})
 ax2.set_xticks(x_pos)
@@ -257,7 +224,7 @@ ax2.set_ylabel('R² Score (Mean +/- Std)', fontweight='bold')
 ax2.set_title('Cross-Validation R² Karsilastirmasi', fontweight='bold', fontsize=12)
 ax2.grid(axis='y', alpha=0.3)
 
-# Değerleri göster
+
 for i, (mean, std) in enumerate(zip(cv_df['CV R2 Mean'], cv_df['CV R2 Std'])):
     ax2.text(i, mean + std + 0.02, f'{mean:.3f}', ha='center', fontweight='bold')
 
@@ -265,9 +232,6 @@ plt.tight_layout()
 plt.savefig('9_cross_validation_charts.png', dpi=300, bbox_inches='tight', facecolor='white')
 print("  Kaydedildi: 9_cross_validation_charts.png")
 
-# ============================================
-# ÖZET
-# ============================================
 
 print("\n" + "="*60)
 print("ANALIZ TAMAMLANDI!")
