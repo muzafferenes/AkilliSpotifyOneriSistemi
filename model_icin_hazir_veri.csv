@@ -1,0 +1,822 @@
+name,artist,artist_followers,artist_popularity,song_popularity,album,release_date,genre,danceability,energy,valence,tempo,duration(min)
+Dönsen Bile,Ferdi Özbeğen,274.779,61,73,Sizin Seçtikleriniz,01-01-1986,other,"0,634","0,604","0,483","118,0",3:23
+Bir Derdim Var,mor ve ötesi,2.607.858,63,68,Dünya Yalan Söylüyor,16-04-2004,alt-rock,"0,544","0,865","0,517","125,0",3:24
+Olsun,Sertab Erener,2.310.274,68,67,Kırık Kalpler Albümü,03-06-2016,pop-rock,"0,582","0,744","0,506","135,0",4:47
+Bana Sor,Ferdi Tayfur,1.399.340,60,7,Hoşçakal,16-10-1990,other,"0,573","0,628","0,528","123,0",6:01
+Sultan-ı Yegah,Nur Yoldas,19.607,42,58,Sultan-ı Yegah,11-06-1998,other,"0,592","0,682","0,547","114,0",3:13
+Biri Vardı,Pera,786.489,55,60,En Güzel Mevsimim,29-01-2016,pop-rock,"0,621","0,838","0,521","129,0",4:10
+Ne Güzel Güldün,Pinhani,2.397.918,61,60,Zaman Beklemez,18-04-2008,indie-pop,"0,676","0,657","0,501","118,0",4:44
+Düşler Sokağı,Feridun Düzağaç,837.070,49,42,Uzun Uzun,01-01-2004,huzunlu-pop,"0,585","0,535","0,327","119,0",4:27
+Begonvil,Dorukhan,687,11,27,Begonvil,10-06-2022,other,"0,624","0,736","0,495","123,0",3:08
+Dön Ne Olur (Live),Melike Şahin,1.849.859,65,0,Harbiye 2022 (Live),24-03-2023,huzunlu-pop,"0,583","0,537","0,333","116,0",4:45
+Ben Seni Ararım,Hakan Yılmaz,6.160,32,15,Gül Ayini,16-12-2024,other,"0,64","0,606","0,477","119,0",4:03
+Geçmedi Zamanla,Egemen Akkol,8.268,33,28,Geçmedi Zamanla,26-01-2024,other,"0,578","0,633","0,462","118,0",2:45
+Son Durağın,Kahraman Deniz,1.108.044,61,68,Son Durağın,21-01-2022,huzunlu-pop,"0,564","0,501","0,274","110,0",3:56
+Koparılan Çiçekler,Sertab Erener,2.310.274,68,56,Rengarenk,02-06-2010,pop-rock,"0,567","0,871","0,558","137,0",4:27
+Paranoya,Melis Fis,273.889,50,29,MELODRAM,24-11-2023,other,"0,587","0,702","0,47","120,0",3:20
+Bazen Neşe Bazen Keder,İlhan İrem,193.824,46,20,Bir Meleğe Aşık Oldum - The Best Of İlhan İrem 4,28-10-2016,other,"0,669","0,69","0,517","125,0",2:43
+Mahşer,Gökhan Türkmen,1.514.692,67,65,Mahşer,08-04-2022,pop-rock,"0,624","0,849","0,507","128,0",4:31
+Gel Barışalım Artık,Sertab Erener,2.310.274,68,53,Lâ'l,14-10-1994,pop-rock,"0,572","0,777","0,505","142,0",3:39
+Emret Öleyim,Sibel Can,1.728.559,61,51,Daha Yolun Başındayım,12-11-1999,arabesk,"0,618","0,624","0,399","103,0",4:26
+Bu Saatten Sonra,İkilem,357.546,55,63,Bu Saatten Sonra,10-12-2021,other,"0,661","0,664","0,482","118,0",3:51
+Bekle Dedi Gitti - Çizik,Kaan Tangöze,387.895,49,62,Gölge Etme,22-09-2015,klasik-rock,"0,486","0,747","0,6","134,0",4:37
+Öyle Dertli,Duman,7.441.445,67,57,Darmaduman,12-09-2013,alt-rock,"0,51","0,801","0,53","132,0",5:01
+Haydi Söyle,Kalben,1.219.649,63,62,Kalben,05-02-2016,other,"0,579","0,607","0,463","124,0",2:46
+Seni Unutmaya Ömrüm Yeter mi,Ümit Besen,731.704,53,66,Başka,17-06-2016,other,"0,649","0,659","0,458","120,0",3:44
+Ben Ne Yangınlar Gordüm,Zakkum,1.223.721,56,59,Her Gün Sonbahar,25-09-2013,huzunlu-pop,"0,6","0,524","0,347","121,0",3:53
+Ölürüm Hasretinle,Seksendört,1.466.688,60,63,Seksendört,01-01-2005,pop-rock,"0,541","0,841","0,562","136,0",4:47
+Kendime Yalan Söyledim,Seksendört,1.466.688,60,4,Akiyor Zaman,01-01-2011,pop-rock,"0,567","0,83","0,493","134,0",4:27
+Anason,Zakkum,1.223.721,56,61,13,10-02-2011,huzunlu-pop,"0,545","0,584","0,335","111,0",4:35
+Haydi Gel İçelim,Yüksek Sadakat,1.425.388,57,62,Katil & Maktül,01-01-2008,klasik-rock,"0,48","0,735","0,64","134,0",4:10
+Cevapsız Sorular,maNga,2.732.574,59,64,Şehr-i Hüzün,09-11-2009,alt-rock,"0,5","0,859","0,483","126,0",4:32
+Bir Kadın Çizeceksin,maNga,2.732.574,59,57,maNga +,27-01-2004,alt-rock,"0,546","0,846","0,503","132,0",3:59
+Cambaz,mor ve ötesi,2.607.858,63,67,Dünya Yalan Söylüyor,16-04-2004,alt-rock,"0,47","0,815","0,412","139,0",3:50
+Dünyanın Sonuna Doğmuşum,maNga,2.732.574,59,60,Şehr-i Hüzün,09-11-2009,alt-rock,"0,558","0,886","0,447","125,0",4:20
+We Could Be The Same - Istanbul,maNga,2.732.574,59,54,We Could Be The Same,16-04-2010,alt-rock,"0,558","0,903","0,42","132,0",3:03
+Beni Aşka İnandır,Kolpa,1.040.755,57,65,Yatağın Soğuk Tarafı,01-01-2011,pop-rock,"0,547","0,846","0,572","129,0",4:13
+Yalnızlığın Çaresini Bulmuşlar,Gripin,1.634.823,61,64,Yalnızlığın Çaresini Bulmuşlar,07-11-2012,pop-rock,"0,588","0,817","0,512","141,0",3:46
+Aşk Nerden Nereye,Gripin,1.634.823,61,68,Yalnızlığın Çaresini Bulmuşlar,07-11-2012,pop-rock,"0,582","0,77","0,545","139,0",4:57
+Işıkları Söndürseler Bile,maNga,2.732.574,59,2,Işıkları Söndürseler Bile,14-04-2014,alt-rock,"0,49","0,814","0,529","134,0",4:28
+Alaz Alaz,Buray,2.083.364,63,58,Başka Hikayeler,26-02-2021,pop,"0,734","0,722","0,635","116,0",2:59
+Dünyadan Uzak,Sakiler,522.782,57,54,Dünyadan Uzak,18-12-2020,other,"0,604","0,682","0,478","118,0",3:38
+Kusura Bakma,Tuğkan,1.424.833,57,63,Kusura Bakma,30-10-2020,huzunlu-pop,"0,507","0,538","0,257","121,0",2:35
+Daha Mutlu Olamam,mor ve ötesi,2.607.858,63,62,Gül Kendine,01-01-2001,alt-rock,"0,556","0,78","0,439","135,0",3:40
+Seni Dert Etmeler,Madrigal,1.598.773,61,68,Seni Dert Etmeler,27-03-2020,indie-pop,"0,601","0,629","0,602","125,0",3:08
+Sen Varsın Diye,Yüzyüzeyken Konuşuruz,2.944.163,65,66,Sen Varsın Diye,02-07-2021,indie-pop,"0,627","0,72","0,587","119,0",3:46
+Barbar,Kaan Boşnak,1.145.308,56,60,Barbar,25-12-2020,indie-pop,"0,59","0,67","0,541","123,0",3:00
+Beyaz Skandalım,Emir Can İğrek,3.212.805,66,63,Ağır Roman,07-11-2018,huzunlu-pop,"0,573","0,544","0,348","109,0",3:35
+Kendime Yalan Söyledim,Seksendört,1.466.688,60,4,Akiyor Zaman,01-01-2011,pop-rock,"0,58","0,788","0,583","131,0",4:27
+Mecbursun,Sertab Erener,2.310.274,68,62,Lâ'l,14-10-1994,pop-rock,"0,559","0,803","0,531","131,0",3:53
+İyileşiyorum,Sertab Erener,2.310.274,68,62,Sade,13-04-2013,pop-rock,"0,565","0,869","0,533","141,0",4:17
+İstanbul,Sertab Erener,2.310.274,68,52,Rengarenk,02-06-2010,pop-rock,"0,595","0,747","0,6","140,0",3:33
+Vazgeçtim Ben Bugün,Gripin,1.634.823,61,57,Yalnızlığın Çaresini Bulmuşlar,07-11-2012,pop-rock,"0,637","0,87","0,582","130,0",4:04
+Dursun Zaman (feat. Göksel),maNga,2.732.574,59,62,maNga +,27-01-2004,alt-rock,"0,519","0,8","0,458","125,0",4:55
+Beni Benimle Bırak,maNga,2.732.574,59,55,Şehr-i Hüzün,09-11-2009,alt-rock,"0,508","0,908","0,442","137,0",3:29
+Sokak Lambası,yirmi7,270.647,51,63,Sokak Lambası,20-06-2016,pop-rock,"0,586","0,799","0,595","143,0",4:12
+Evleniyormuşsun Bugün,Bağzıları,507.388,47,61,Gece Lambası,25-05-2018,alt-rock,"0,526","0,871","0,429","129,0",4:18
+ıslak kum,Contra,1.201.329,55,57,ıslak kum,13-11-2020,alt-rap,"0,797","0,641","0,415","129,0",3:06
+Hayir Olamaz,Seksendört,1.466.688,60,1,Akiyor Zaman,01-01-2011,pop-rock,"0,546","0,822","0,54","141,0",3:24
+Aşk Yok Olmaktır,Mabel Matiz,5.450.427,67,66,Yaşım Çocuk,28-12-2012,indie-pop,"0,596","0,745","0,5","119,0",3:43
+Aman Aman,Duman,7.441.445,67,65,Seni Kendime Sakladım,04-07-2005,alt-rock,"0,53","0,865","0,438","126,0",4:05
+Kırmış Kalbini,Duman,7.441.445,67,58,Belki Alışman Lazım,16-10-2002,alt-rock,"0,559","0,804","0,481","134,0",4:39
+Haberin Yok Ölüyorum,Duman,7.441.445,67,60,Belki Alışman Lazım,16-10-2002,alt-rock,"0,512","0,852","0,473","139,0",6:01
+Sen Ağlama,Badem,349.595,47,60,Badem,19-05-2003,other,"0,59","0,7","0,479","120,0",3:41
+Belki Üstümüzden Bir Kuş Geçer,Yüksek Sadakat,1.425.388,57,65,Yüksek Sadakat,21-04-2005,klasik-rock,"0,497","0,752","0,568","132,0",4:29
+Dibine Kadar,Duman,7.441.445,67,62,Duman 1,06-07-2010,alt-rock,"0,477","0,834","0,53","140,0",3:48
+Yıldızlara Bak,Yaşlı Amca,1.675.746,57,61,Yaşlı Amca,10-01-2020,alt-rock,"0,477","0,8","0,442","139,0",4:00
+Hoşçakal,emre aydın,1.161.537,61,62,Kağıt Evler,01-11-2010,huzunlu-pop,"0,588","0,573","0,274","110,0",3:46
+Anlayamazsın,Seksendört,1.466.688,60,2,Anlayamazsın,12-06-2018,pop-rock,"0,623","0,838","0,553","143,0",4:02
+Düşler Sokağı,Feridun Düzağaç,837.070,49,57,Orjinal Alt Yazılı,11-03-2013,huzunlu-pop,"0,565","0,451","0,328","112,0",4:29
+Hayalet Sevgilim,Irem,64.663,52,68,Hayalet Sevgilim,15-02-2006,other,"0,636","0,731","0,466","116,0",4:48
+Bu Akşam Ölürüm,Murat Kekilli,226.189,46,3,Vay Be,05-04-2000,other,"0,581","0,677","0,483","124,0",4:10
+Cesaretin Var mı Aşka,Gülay Sezer,76.432,48,64,Adı Yok,24-11-2004,other,"0,642","0,629","0,526","118,0",3:34
+Yanarım,Sertab Erener,2.310.274,68,59,Sertab Erener,24-03-1999,pop-rock,"0,589","0,867","0,582","128,0",3:15
+Açık Adres - Akustik,Sertab Erener,2.310.274,68,40,Rengarenk,02-06-2010,pop-rock,"0,582","0,779","0,48","139,0",4:32
+Gittiğinde,Göksel,1.782.533,63,62,Sen Orda Yoksun,01-01-2015,pop,"0,754","0,687","0,709","121,0",3:27
+Dünya'm,Ozbi,568.113,56,0,Dünya'm 20:24,07-08-2020,other,"0,613","0,601","0,459","128,0",2:59
+Sensiz Sabah Olmuyor,Ayçin Asan,70.146,48,39,Çiçek Gibi,01-11-2019,other,"0,66","0,676","0,55","123,0",3:32
+Öyle Kolaysa,Mabel Matiz,5.450.427,67,62,Maya,20-06-2018,indie-pop,"0,595","0,628","0,527","130,0",4:40
+Ölüyorum,Hayko Cepkin,867.937,61,63,Tanışma Bitti,22-05-2007,other,"0,65","0,72","0,558","117,0",3:41
+Kafile,Yüksek Sadakat,1.425.388,57,62,Yüksek Sadakat,21-04-2005,klasik-rock,"0,455","0,724","0,624","134,0",4:18
+Bu Son Olsun,Cem Karaca,2.015.501,57,54,Bu Son Olsun,04-03-2015,klasik-rock,"0,471","0,797","0,549","135,0",2:46
+Sensiz Ben,Pera,786.489,55,61,Giz,10-12-2013,pop-rock,"0,626","0,877","0,577","141,0",4:30
+Hele Bi Gel,Pinhani,2.397.918,61,61,İnandığın Masallar,06-03-2006,indie-pop,"0,582","0,713","0,53","131,0",3:51
+Nalan,Emir Can İğrek,3.212.805,66,61,Nalan,06-09-2019,huzunlu-pop,"0,58","0,571","0,327","111,0",3:19
+Dile Kolay Kalbe Değil,Zakkum,1.223.721,56,47,Bir Gece Yarası,05-02-2016,huzunlu-pop,"0,579","0,465","0,335","121,0",5:07
+Dönsen Bile,Emir Can İğrek,3.212.805,66,44,Dönsen Bile,20-06-2019,huzunlu-pop,"0,522","0,564","0,285","112,0",4:24
+Yalan,Leyla The Band,67.809,47,0,Yalan,07-11-2017,other,"0,65","0,632","0,453","117,0",4:19
+Islak Islak,Barış Akarsu,994.237,53,8,Islak Islak,31-12-2004,other,"0,603","0,721","0,566","118,0",4:46
+Kimdir O,Barış Akarsu,994.237,53,0,Islak Islak,31-12-2004,other,"0,634","0,656","0,568","123,0",4:13
+Kerkük Zindanı,Cem Karaca,2.015.501,57,52,Bindik Bir Alamete,01-01-1999,klasik-rock,"0,524","0,726","0,646","123,0",3:21
+Aldırma Gönül,Hayko Cepkin,867.937,61,48,"Beni Büyüten Şarkılar, Vol.1",29-12-2015,other,"0,666","0,637","0,463","121,0",3:28
+Bak,Pilli Bebek,510.768,58,69,Olsun,17-05-2007,klasik-rock,"0,503","0,754","0,603","128,0",4:35
+Yeni Bir Gün,Kurtalan Ekspres,26.636,33,0,Göğe Selam,01-01-2011,other,"0,609","0,681","0,481","125,0",8:56
+Bu Aşk Fazla Sana,Şebnem Ferah,2.560.933,71,75,Kadın,01-01-2013,klasik-rock,"0,43","0,84","0,595","132,0",4:28
+Madalyonun Ters Yüzü,3 Hürel,124.728,39,36,3 Hürel (Türk Pop Tarihi),01-01-1999,other,"0,644","0,694","0,494","115,0",3:00
+Dinleyiverin Gari,Moğollar,229.734,38,47,Moğollar Best Of / 1968-2000,03-03-2000,other,"0,636","0,646","0,488","128,0",4:26
+Aman Aman,Sattas,50.571,41,36,Bir Ben Miyim,10-03-2017,funk-rock,"0,672","0,772","0,667","117,0",4:12
+Birden Geldin Aklıma,Tuna Kiremitçi,148.698,54,62,Tuna Kiremitçi ve Arkadaşları,06-01-2017,other,"0,61","0,641","0,465","121,0",3:36
+Böyle Sever,Kahraman Deniz,1.108.044,61,71,19,14-12-2018,huzunlu-pop,"0,594","0,545","0,338","117,0",4:04
+Seni Yazdım,Müslüm Gürses,9.481.605,69,15,Küskünüm,22-05-1986,arabesk,"0,56","0,657","0,32","102,0",4:36
+İnsan Dertli Olunca,Bergen,1.772.697,55,56,Yıllar Affetmez,01-01-1998,other,"0,613","0,681","0,529","121,0",4:34
+Gel Bahtımın Kar Beyazı,Müslüm Gürses,9.481.605,69,8,Dünya Yalan,11-05-2001,arabesk,"0,574","0,61","0,377","111,0",4:55
+Gönül Sayfam,Arap Şükrü,170.470,49,0,Bu Şehir Beni Boğuyor,30-04-2020,other,"0,65","0,624","0,46","122,0",8:25
+Bir Ömür Yetmez,Müslüm Gürses,9.481.605,69,65,Aşk Tesadüfleri Sever (Mucize ve Buluşma),01-01-2006,arabesk,"0,593","0,627","0,418","109,0",4:02
+Yokluğunda,Leyla The Band,67.809,47,64,Yokluğunda,01-01-2012,other,"0,637","0,631","0,474","114,0",4:10
+Olmadı Yar,Müslüm Gürses,9.481.605,69,4,Dünya Yalan,11-05-2001,arabesk,"0,554","0,647","0,422","98,0",4:03
+Kül,Cem Adrian,3.757.762,63,62,Kül,16-01-2021,other,"0,611","0,688","0,473","125,0",4:54
+Aslan Gibi,Sıla,2.350.187,65,58,Vaveyla,01-12-2012,huzunlu-pop,"0,549","0,484","0,309","107,0",3:54
+Vaziyetler,Sıla,2.350.187,65,57,Yeni Ay,04-03-2014,huzunlu-pop,"0,575","0,558","0,243","114,0",3:16
+Acısa da Öldürmez,Sıla,2.350.187,65,64,Konuşmadığımız Şeyler Var,29-11-2010,huzunlu-pop,"0,518","0,584","0,292","108,0",3:24
+Yine Yeni Yeniden - Yeniden Sev,maNga,2.732.574,59,1,Yine Yeni Yeniden (Yeniden Sev),01-01-2015,alt-rock,"0,495","0,889","0,465","137,0",3:35
+Yıldızların Altında,Kargo,452.624,49,64,Yıldızların Altında,14-07-2005,other,"0,637","0,738","0,521","129,0",2:57
+Gökyüzünde,Zakkum,1.223.721,56,57,Her Gün Sonbahar,25-09-2013,huzunlu-pop,"0,589","0,536","0,316","115,0",3:51
+Benimle Kayboldun,Kaan Boşnak,1.145.308,56,66,Demos,16-06-2018,indie-pop,"0,663","0,687","0,598","128,0",3:09
+Elleri Ellerime,Duman,7.441.445,67,56,Duman 2,06-07-2010,alt-rock,"0,517","0,806","0,44","134,0",4:16
+Beni Al,Pinhani,2.397.918,61,56,İnandığın Masallar,06-03-2006,indie-pop,"0,657","0,683","0,565","120,0",3:36
+Sevmekten Usanmam,Pinhani,2.397.918,61,61,Zaman Beklemez,18-04-2008,indie-pop,"0,588","0,65","0,523","121,0",3:52
+Dön Bak Dünyaya,Pinhani,2.397.918,61,55,İnandığın Masallar,06-03-2006,indie-pop,"0,634","0,629","0,518","127,0",6:33
+Sevdim Seni Bir Kere,Teoman,2.632.299,64,43,"Konserler, Vol. 2",13-01-2012,klasik-rock,"0,501","0,719","0,579","129,0",5:47
+Zor Değil,Mabel Matiz,5.450.427,67,59,Yaşım Çocuk,28-12-2012,indie-pop,"0,622","0,639","0,54","130,0",4:32
+Sultan Süleyman,Mabel Matiz,5.450.427,67,47,Aysel'in,25-06-2013,indie-pop,"0,638","0,707","0,593","128,0",5:17
+Senden Daha Güzel,Duman,7.441.445,67,62,Duman 2,06-07-2010,alt-rock,"0,508","0,771","0,452","136,0",3:59
+Kafama Göre,Athena,1.115.823,54,56,Altüst,11-10-2014,funk-rock,"0,685","0,863","0,68","122,0",3:13
+Koca Yaşlı Şişko Dünya,Adamlar,2.217.051,62,61,Eski Dostum Tankla Gelmiş,08-09-2014,alt-rock,"0,525","0,854","0,436","128,0",3:53
+Yaz Yaz Yaz,mor ve ötesi,2.607.858,63,52,Kayıtlar 2005-2016,20-12-2016,alt-rock,"0,514","0,774","0,45","135,0",5:00
+Tutamıyorum Zamanı,Kenan Doğulu,1.248.329,66,0,Ex Aşkım,25-07-2001,pop,"0,73","0,673","0,676","114,0",3:57
+Tavla,Mirkelam,315.338,48,52,Mirkelam,22-05-1995,pop-rock,"0,602","0,744","0,527","136,0",4:31
+Ellerimde Çiçekler,Arda VR.,5.688,0,0,Ellerimde Çiçekler,01-04-2022,other,"0,573","0,69","0,466","121,0",3:08
+Antidepresan Gülümsemesi - Pazarlık,Model,1.759.049,64,62,Levla'nın Hikayesi (Bonus Edition),01-01-2013,pop-rock,"0,545","0,793","0,505","132,0",4:15
+Ben Nası Büyük Adam Olucam,Pinhani,2.397.918,61,51,İnandığın Masallar,06-03-2006,indie-pop,"0,656","0,663","0,58","129,0",4:27
+Hikayem Bitmedi,Can Bonomo,775.072,57,58,Bulunmam Gerek,01-01-2014,indie-pop,"0,605","0,621","0,492","125,0",3:04
+Köprüaltı,Duman,7.441.445,67,63,Eski Köprünün Altında,05-11-1999,alt-rock,"0,57","0,819","0,488","136,0",4:51
+Bikinisinde Astronomi - Bonus Trek,Son Feci Bisiklet,1.218.395,56,61,Son Feci EP,04-02-2014,other,"0,635","0,706","0,564","117,0",3:01
+Elfida,Haluk Levent,1.614.063,55,60,Akşam Üstü,01-01-2006,other,"0,572","0,621","0,465","125,0",5:33
+Haykıracak Nefesim Kalmasa Bile,maNga,2.732.574,59,50,"Kimler Geldi Kimler Geçti, Vol. 1 (Fikret Şeneş Şarkıları)",04-10-2019,alt-rock,"0,526","0,801","0,494","136,0",3:27
+Neredesin Sen,Neşet Ertaş,3.250.952,55,56,Acem Kızı,21-06-2007,other,"0,587","0,685","0,54","116,0",3:56
+Adaletin Bu mu Dünya,Selda Bağcan,1.503.496,59,54,Özgürlük ve Demokrasiyi Çizmek,03-02-1993,klasik-rock,"0,512","0,845","0,543","120,0",3:03
+Gesi Bağları,Selda Bağcan,1.503.496,59,50,Türkülerimiz 1,01-01-1995,klasik-rock,"0,461","0,805","0,645","126,0",3:31
+Ah Bu Şarkıların Gözü Kör Olsun,Zeki Müren,831.664,52,53,Zirvedeki Şarkılar,22-11-1989,other,"0,642","0,611","0,533","124,0",5:28
+Fikrimin İnce Gülü,Müzeyyen Senar,287.278,47,48,Son Aşkımı Canlandıran,01-01-1987,other,"0,58","0,708","0,552","124,0",3:02
+Mihriban,Musa Eroğlu,992.207,56,43,Bir Nefes Anadolu,29-09-2000,other,"0,582","0,738","0,544","120,0",4:19
+Gitme Sana Muhtacım,Zeki Müren,831.664,52,0,Sev Beni,22-12-1989,other,"0,613","0,652","0,511","119,0",4:31
+Ben de Özledim,Ferdi Tayfur,1.399.340,60,52,Ben de Özledim,01-01-1982,other,"0,655","0,715","0,463","129,0",4:03
+Nikah Masası,Ümit Besen,731.704,53,55,Nostalji,05-06-1998,other,"0,634","0,716","0,535","121,0",4:49
+Unutamadım - Kaç Kadeh Kırıldı,Müslüm Gürses,9.481.605,69,13,Küskünüm,22-05-1986,arabesk,"0,603","0,715","0,352","110,0",4:29
+Mutlu Ol Yeter,Müslüm Gürses,9.481.605,69,56,Mutlu Ol Yeter (Remastered),01-01-1981,arabesk,"0,584","0,648","0,372","109,0",4:25
+Her Şeyi Yak,Duman,7.441.445,67,68,Belki Alışman Lazım,16-10-2002,alt-rock,"0,497","0,889","0,51","125,0",4:30
+Sen Ona Aşıksın - Kabullenme,Model,1.759.049,64,66,Levla'nın Hikayesi (Bonus Edition),01-01-2013,pop-rock,"0,628","0,774","0,536","137,0",3:49
+Dinle Beni Bi',Yüzyüzeyken Konuşuruz,2.944.163,65,67,Akustik Travma,23-02-2018,indie-pop,"0,618","0,614","0,592","119,0",2:24
+Uzunlar - V1,Evdeki Saat,478.427,51,63,Uzunlar,14-02-2020,indie-pop,"0,601","0,722","0,531","130,0",4:42
+Bırakma Kendini,Kaan Boşnak,1.145.308,56,63,Bırakma Kendini,09-04-2020,indie-pop,"0,65","0,649","0,491","131,0",4:00
+Kendine İyi Bak,Ahmet Kaya,7.305.043,71,66,Sevgi Duvarı,01-01-1990,other,"0,579","0,701","0,509","126,0",4:27
+Kum Gibi,Ahmet Kaya,7.305.043,71,66,Şarkılarım Dağlara,05-05-1994,other,"0,639","0,69","0,509","127,0",4:30
+Yürek,Duman,7.441.445,67,64,Darmaduman,12-09-2013,alt-rock,"0,479","0,801","0,493","129,0",4:11
+Pembe Mezarlık,Model,1.759.049,64,63,Diğer Masallar,16-02-2011,pop-rock,"0,598","0,806","0,544","134,0",4:15
+Oyunbozan,mor ve ötesi,2.607.858,63,64,Güneşi Beklerken,17-12-2012,alt-rock,"0,545","0,816","0,494","128,0",4:37
+Vurgunum,Murat Göğebakan,330.518,56,59,Aşkın Gözyaşları,01-03-2012,other,"0,595","0,617","0,473","116,0",3:54
+Yaralı,Murat Göğebakan,330.518,56,56,Yaralı,27-04-2004,other,"0,624","0,707","0,472","117,0",3:07
+Raf,Deeperise,334.906,55,64,Raf,05-05-2017,other,"0,618","0,701","0,567","122,0",4:07
+Benden Bu Kadar,Patron,1.259.904,56,52,Benden Bu Kadar,13-09-2019,other,"0,598","0,614","0,473","118,0",3:32
+Siyah,Patron,1.259.904,56,52,Siyah,12-06-2020,other,"0,588","0,602","0,514","118,0",3:45
+Sevdik de noldu sanki,Patron,1.259.904,56,30,EL PATRON,09-04-2021,other,"0,667","0,677","0,534","116,0",2:45
+Felaket,Ezhel,7.019.237,70,63,Felaket,01-02-2019,trap,"0,747","0,599","0,495","143,0",3:14
+Mekanın Sahibi,Norm Ender,2.087.990,64,54,Mekanın Sahibi,19-07-2019,old-rap,"0,807","0,682","0,542","88,0",3:11
+Kazıdık Tırnaklarla,Ezhel,7.019.237,70,53,Kazıdık Tırnaklarla,15-06-2018,trap,"0,754","0,597","0,489","140,0",2:52
+Neyim Var Ki (feat. Sagopa K),Ceza,5.152.899,63,66,Rapstar,01-07-2004,old-rap,"0,767","0,708","0,526","89,0",3:26
+Holocaust,Ceza,5.152.899,63,60,Rapstar,01-07-2004,old-rap,"0,816","0,663","0,639","89,0",3:27
+Yerli Plaka,Ceza,5.152.899,63,62,Yerli Plaka,13-02-2007,old-rap,"0,836","0,705","0,615","91,0",4:34
+Fark Var,Ceza,5.152.899,63,56,Yerli Plaka,13-02-2007,old-rap,"0,812","0,683","0,573","101,0",4:15
+Ay Tenli Kadın,Ufuk Beydemir,752.540,54,64,Sevda Gibi,23-03-2018,alt-rock,"0,569","0,813","0,485","134,0",3:17
+Unutmak İstiyorum,Ufuk Çalışkan,63.878,37,51,Unutmak İstiyorum,25-06-2011,other,"0,644","0,733","0,475","117,0",4:00
+Bir Ateşe Attın Beni,Kamuran Akkor,611.216,59,67,Sev Yeter,30-07-2004,other,"0,636","0,622","0,471","115,0",4:39
+Yediverenim,Funda Arar,1.323.564,63,65,Hoşgeldin,01-01-2014,other,"0,57","0,663","0,521","119,0",3:25
+Sözler Şerefsiz Oldu,Norm Ender,2.087.990,64,64,İçinde Patlar,01-01-2010,old-rap,"0,783","0,719","0,604","94,0",3:23
+Çıktık Yine Yollara,Norm Ender,2.087.990,64,54,İçinde Patlar,01-01-2010,old-rap,"0,829","0,749","0,615","97,0",4:00
+Tutamıyorum Zamanı,Müslüm Gürses,9.481.605,69,70,Sandık,01-01-2009,arabesk,"0,596","0,711","0,371","106,0",4:27
+Elbet Birgün Buluşacağız,Zeki Müren,831.664,52,52,Dünden Bugüne 5,15-03-1991,other,"0,635","0,727","0,549","115,0",5:08
+Duydum Ki Unutmuşsun,Emel Sayın,228.262,46,52,"Assolistler-Solistler Geçidi, Vol. 1",10-10-2006,other,"0,587","0,643","0,54","123,0",3:41
+Serseri,Teoman,2.632.299,64,60,Eski Bir Rüya Uğruna...,01-01-2015,klasik-rock,"0,459","0,727","0,613","131,0",3:41
+Arsız Gönül,Athena,1.115.823,54,54,Pis,01-01-2010,funk-rock,"0,694","0,8","0,689","111,0",4:20
+Mor Yazma,Umut Kaya,138.020,48,63,Umut Kaya,27-11-2008,alt-rock,"0,474","0,83","0,449","128,0",3:19
+Affet,Müslüm Gürses,9.481.605,69,68,Aşk Tesadüfleri Sever (Mucize ve Buluşma),01-01-2006,arabesk,"0,539","0,715","0,42","106,0",4:39
+İstanbul Beyefendisi,Yaşlı Amca,1.675.746,57,50,Akşamüstü,01-09-2017,alt-rock,"0,565","0,91","0,491","128,0",3:53
+Love Me Back,Can Bonomo,775.072,57,44,Love Me Back,07-10-2013,indie-pop,"0,584","0,716","0,546","126,0",3:01
+Küllenen Aşk,Cengiz Kurtoğlu,1.502.994,60,62,Unutulan...,20-09-2002,arabesk,"0,622","0,605","0,39","107,0",5:06
+"Her Akşam Votka, Rakı Ve Şarap / Sarhoş",Dario Moreno,57.936,41,55,Dario Moreno'suz 40 Yıl,04-03-2008,other,"0,619","0,613","0,492","119,0",3:04
+Mutlu Ol Yeter,İbrahim Tatlıses,2.952.144,67,63,Klasikleri,23-06-1995,other,"0,637","0,72","0,49","125,0",4:23
+Sen Affetsen,Bergen,1.772.697,55,64,Acıların Kadını,18-06-1998,other,"0,599","0,732","0,548","123,0",4:25
+Unutama Beni,Esmeray,159.591,47,64,En İyileriyle Esmeray,01-01-1975,other,"0,615","0,644","0,489","130,0",4:07
+Benim İçin Üzülme,Bergen,1.772.697,55,57,Acıların Kadını,18-06-1998,other,"0,61","0,672","0,569","125,0",5:02
+Seni Kalbimden Kovdum,Bergen,1.772.697,55,54,Yıllar Affetmez,01-01-1998,other,"0,624","0,658","0,473","120,0",5:19
+Gamzedeyim Deva Bulmam,Dedublüman,2.312.951,69,63,Gamzedeyim Deva Bulmam,01-02-2020,huzunlu-pop,"0,576","0,538","0,321","110,0",5:16
+Terlemeden Sevişenler,Teoman,2.632.299,64,39,Renkli Rüyalar Oteli,05-01-2006,klasik-rock,"0,485","0,84","0,583","131,0",4:35
+Kor,Emir Can İğrek,3.212.805,66,62,Kor,08-10-2021,huzunlu-pop,"0,512","0,586","0,303","111,0",2:59
+Çözemezsin,Dedublüman,2.312.951,69,67,Çözemezsin,02-04-2021,huzunlu-pop,"0,516","0,527","0,296","108,0",4:37
+Felfena,Emir Can İğrek,3.212.805,66,46,Felfena,04-03-2022,huzunlu-pop,"0,599","0,578","0,285","109,0",2:29
+Dünyanın En Güzel Kızı,Mavi Gri,1.681.202,61,51,Dünyanın En Güzel Kızı,17-12-2021,huzunlu-pop,"0,583","0,52","0,316","115,0",3:37
+Seni Kendime Sakladım,Duman,7.441.445,67,65,Seni Kendime Sakladım,04-07-2005,alt-rock,"0,497","0,887","0,528","128,0",4:02
+Değmesin Ellerimiz,Model,1.759.049,64,69,Diğer Masallar,16-02-2011,pop-rock,"0,595","0,794","0,591","135,0",4:27
+Bir Sevmek Bin Defa Ölmek Demekmiş,Barış Akarsu,994.237,53,0,Ayrılık Zamansız Gelir,29-11-2007,other,"0,658","0,721","0,483","127,0",4:08
+İstanbul'da Sonbahar,Teoman,2.632.299,64,59,Gönülçelen,01-12-2001,klasik-rock,"0,471","0,841","0,591","133,0",3:20
+Sevdim Seni Bir Kere,Teoman,2.632.299,64,59,Gönülçelen,01-12-2001,klasik-rock,"0,458","0,752","0,6","136,0",4:12
+Nazende Sevgilim,Figen Genç,126,0,0,Nazende Sevgilim,20-05-1999,other,"0,619","0,621","0,515","120,0",3:50
+Bu Kız,Son Feci Bisiklet,1.218.395,56,59,Vesaire,23-06-2015,other,"0,625","0,676","0,505","119,0",2:55
+Bu Havada Gidilmez,Manuş Baba,1.007.512,57,0,Ve Nazan Öncel Şarkıları,17-08-2018,other,"0,589","0,698","0,519","118,0",3:49
+Dönersen Islık Çal,Manuş Baba,1.007.512,57,63,Dönersen Islık Çal,27-04-2017,other,"0,648","0,606","0,539","125,0",3:31
+Eskisi Gibi,Lil Zey,444.236,57,60,Eskisi Gibi,10-07-2020,trap,"0,741","0,584","0,47","147,0",3:06
+Seni Buldum Ya,Kaan Boşnak,1.145.308,56,55,Seni Buldum Ya,09-10-2020,indie-pop,"0,678","0,679","0,494","124,0",3:53
+Dünyadan Uzak,Pinhani,2.397.918,61,49,Dünyadan Uzak,27-03-2020,indie-pop,"0,639","0,732","0,595","123,0",4:07
+Gökyüzünü Tutamam,Can Koç,75.407,46,62,Gökyüzünü Tutamam,23-07-2021,other,"0,623","0,664","0,537","121,0",3:15
+Ne Ay Geceden,Sezer Sarıgöz,261.588,55,64,Ne Ay Geceden,26-01-2022,pop,"0,755","0,672","0,676","128,0",3:19
+Sen Orda Yoksun,Göksel,1.782.533,63,66,Sen Orda Yoksun,01-01-2015,pop,"0,724","0,747","0,698","126,0",4:01
+Uzaktan,Göksel,1.782.533,63,68,Bende Bi' Aşk Var,09-01-2012,pop,"0,775","0,77","0,666","117,0",3:39
+Bu Böyle,Sertab Erener,2.310.274,68,59,Rengarenk,02-06-2010,pop-rock,"0,612","0,846","0,585","128,0",4:48
+Aşk,Sertab Erener,2.310.274,68,58,Sertab Erener,24-03-1999,pop-rock,"0,547","0,828","0,591","143,0",3:31
+Bir Çaresi Bulunur,Sertab Erener,2.310.274,68,59,Rengarenk,02-06-2010,pop-rock,"0,615","0,801","0,492","137,0",3:36
+Vur Yüreğim,Sertab Erener,2.310.274,68,50,Sertab Erener,24-03-1999,pop-rock,"0,627","0,802","0,563","141,0",4:31
+Söz Bitti,Sertab Erener,2.310.274,68,51,Turuncu,01-01-2001,pop-rock,"0,545","0,851","0,515","133,0",4:20
+Rüya,Sertab Erener,2.310.274,68,54,Lâ'l,14-10-1994,pop-rock,"0,555","0,814","0,548","140,0",4:39
+Kız Leyla,Sertab Erener,2.310.274,68,0,Ben Yaşarım,12-06-2020,pop-rock,"0,557","0,751","0,585","137,0",4:01
+Yalnızlık Senfonisi,Sezen Aksu,13.986.198,74,30,Düş Bahçeleri,14-07-1996,pop-rock,"0,564","0,868","0,497","134,0",5:42
+Bir Damla Gözlerimde,Sertab Erener,2.310.274,68,48,Rengarenk,02-06-2010,pop-rock,"0,565","0,776","0,481","140,0",3:58
+Öyle de Güzel,Sertab Erener,2.310.274,68,40,Sade,13-04-2013,pop-rock,"0,63","0,835","0,499","134,0",3:40
+Doktor,Kenan Doğulu,1.248.329,66,61,Aşka Türlü Şeyler,06-07-2012,pop,"0,725","0,732","0,697","119,0",3:32
+Ahu,Mabel Matiz,5.450.427,67,68,Gök Nerede,23-02-2015,indie-pop,"0,605","0,728","0,514","122,0",3:34
+Kumralım,Yaşar,872.685,61,72,Divane,01-01-1996,huzunlu-pop,"0,548","0,483","0,299","116,0",3:30
+Hovarda,Emel Müftüoğlu,145.115,47,61,Hovarda,01-01-2006,pop,"0,789","0,691","0,737","123,0",4:11
+Sen İstanbul'sun,Gökhan Türkmen,1.514.692,67,67,En Baştan,01-06-2018,pop-rock,"0,567","0,819","0,562","139,0",4:15
+Gel,Mabel Matiz,5.450.427,67,64,Gök Nerede,23-02-2015,indie-pop,"0,585","0,695","0,55","130,0",4:47
+Kupa Kızı Ve Sinek Valesi,Teoman,2.632.299,64,64,Teo,05-03-2003,klasik-rock,"0,459","0,822","0,603","126,0",4:55
+Bal,Duman,7.441.445,67,59,Belki Alışman Lazım,16-10-2002,alt-rock,"0,534","0,857","0,491","136,0",5:13
+Bu Aşk Beni Yorar,Duman,7.441.445,67,45,Duman 1,06-07-2010,alt-rock,"0,536","0,887","0,485","138,0",4:09
+Beni Sen İnandır,Pinhani,2.397.918,61,60,Kediköy,08-01-2016,indie-pop,"0,645","0,653","0,543","125,0",3:44
+Aşk Durdukça,Yüksek Sadakat,1.425.388,57,60,Katil & Maktül,01-01-2008,klasik-rock,"0,503","0,723","0,565","132,0",4:29
+Yağmur,Bertuğ Cemil,5.904,28,0,Duygusal Tuzaklar,01-01-2006,other,"0,588","0,619","0,515","130,0",5:22
+Tastamam,Can Bonomo,775.072,57,58,Bulunmam Gerek,01-01-2014,indie-pop,"0,633","0,738","0,59","120,0",3:16
+Müzik Kutusu,Emir Can İğrek,3.212.805,66,59,Ağır Roman,07-11-2018,huzunlu-pop,"0,582","0,517","0,327","119,0",2:54
+Manzaralar,Patron,1.259.904,56,49,"Pmc Legacy, Vol.1",04-04-2019,other,"0,604","0,616","0,566","116,0",3:51
+Kafam Senden Bile Güzel,Kolpa,1.040.755,57,63,Aşk Ve Hayat Hakkında,10-01-2014,pop-rock,"0,637","0,86","0,567","143,0",3:24
+Sen Beni Unutamazsın,emre aydın,1.161.537,61,63,Sen Beni Unutamazsın,09-12-2016,huzunlu-pop,"0,597","0,563","0,274","120,0",4:00
+Herşey Yolunda,Dr. Skull,20.657,17,20,Hershey Yolunda!? (Remastered),16-06-1994,other,"0,571","0,675","0,505","125,0",2:34
+"Zamanın Gözünden, Böl. 3: An",80 Kalibre,6.636,12,0,Zamanın Gözünden,26-05-2020,other,"0,637","0,682","0,549","129,0",3:02
+Toprak,Knight Errant,3.241,13,15,Ruhlarin Buyuk Gocu /The Grand Migration of Souls,24-06-2020,other,"0,581","0,633","0,453","128,0",4:32
+Çocuk Bahçesi,Soul Sacrifice,4.120,11,12,Carpe Mortem,20-07-2012,other,"0,626","0,728","0,477","115,0",4:54
+Dağlarda / Yakanlara,Objektif,11.873,25,25,Künye,22-09-2000,other,"0,652","0,727","0,486","121,0",4:04
+Gecenin Rengi,Yavuz Çetin,163.377,41,0,İlk,17-11-1997,other,"0,584","0,732","0,487","122,0",3:52
+Saklımdasın,Erdal Güney,47.479,46,58,Aşkiya,01-01-2005,other,"0,58","0,724","0,466","121,0",4:25
+Eftelya,Hakan Yesilyurt,69.800,37,47,Eftelya,23-12-1999,other,"0,637","0,704","0,564","121,0",3:29
+Oysa Bir Umuttu,Kıraç,674.418,56,51,Aliye (Orijinal Dizi Müzikleri),08-08-2006,klasik-rock,"0,504","0,732","0,58","122,0",2:24
+Sarılınca Sana,İlhan Şeşen,68.896,45,54,Aşk Yalan,23-02-2005,other,"0,619","0,657","0,564","115,0",3:57
+Sevda Değil,Zülfü Livaneli,555.492,48,0,"Bütüneserleri, Vol. 13 (Saat Dört... Yoksun)",23-11-2009,other,"0,607","0,662","0,564","128,0",6:30
+Haberin Var mı?,Manuş Baba,1.007.512,57,58,Dönersen Islık Çal,27-04-2017,other,"0,58","0,696","0,515","130,0",3:15
+Bizim Hikaye,Çağatay Akman,464.648,51,57,Yirmi - Bir,31-07-2019,other,"0,606","0,656","0,473","116,0",3:05
+Yüreğim Davacı,Çağatay Akman,464.648,51,60,Yirmi - Bir,31-07-2019,other,"0,655","0,664","0,53","124,0",2:47
+Mecnun,Buray,2.083.364,63,52,Sahiden,11-11-2016,pop,"0,75","0,653","0,714","116,0",3:20
+Koştum Hekime,Burak King,777.772,53,0,Koştum Hekime,18-08-2017,other,"0,583","0,679","0,458","126,0",3:35
+Eteği Belinde,Manuş Baba,1.007.512,57,63,Dönersen Islık Çal,27-04-2017,other,"0,591","0,63","0,554","119,0",3:25
+Ya Bu İşler Ne,Mabel Matiz,5.450.427,67,64,Maya,20-06-2018,indie-pop,"0,595","0,736","0,49","130,0",3:56
+Zalım,Ceylan Ertem,611.595,47,50,Zalım,11-12-2017,other,"0,584","0,618","0,48","117,0",4:28
+Gel Sevelim,Ceylan Ertem,611.595,47,27,Câhille Sohbeti Kestim,17-01-2020,other,"0,636","0,604","0,452","127,0",5:32
+Gece Gölgenin Rahatına Bak,Çağatay Akman,464.648,51,58,Yirmi - Bir,31-07-2019,other,"0,594","0,645","0,471","115,0",2:43
+Türk Marşı,Ceza,5.152.899,63,52,Türk Marşı,01-11-2012,old-rap,"0,834","0,694","0,609","95,0",1:48
+Suspus,Ceza,5.152.899,63,61,Suspus,06-05-2015,old-rap,"0,838","0,692","0,533","95,0",4:08
+Deli,Norm Ender,2.087.990,64,51,Aura,03-02-2017,old-rap,"0,855","0,626","0,614","101,0",2:45
+Şehrimin Tadı,Ezhel,7.019.237,70,63,Müptezhel,25-05-2017,trap,"0,712","0,594","0,506","135,0",4:13
+İmkansızım,Ezhel,7.019.237,70,67,İmkansızım,17-11-2017,trap,"0,708","0,586","0,472","142,0",3:42
+Bazen (feat. Emel),Ezhel,7.019.237,70,66,Müptezhel,25-05-2017,trap,"0,751","0,54","0,4","144,0",3:51
+Benim Stilim,Norm Ender,2.087.990,64,41,Aura,03-02-2017,old-rap,"0,767","0,659","0,596","96,0",3:33
+Kaktüs,Norm Ender,2.087.990,64,59,Aura,03-02-2017,old-rap,"0,793","0,759","0,584","94,0",3:21
+Sertlik Kanında Var Hayatın,Sagopa Kajmer,5.376.618,69,50,Sertlik Kanında Var Hayatın,29-04-2017,old-rap,"0,821","0,634","0,604","101,0",4:32
+366.Gün,Sagopa Kajmer,5.376.618,69,60,366.Gün,01-01-2017,old-rap,"0,825","0,728","0,607","90,0",3:55
+Ahmak Islatan,Sagopa Kajmer,5.376.618,69,55,Ahmak Islatan,20-03-2014,old-rap,"0,805","0,652","0,561","94,0",4:39
+Nilüfer,Müslüm Gürses,9.481.605,69,71,Aşk Tesadüfleri Sever (Mucize ve Buluşma),01-01-2006,arabesk,"0,572","0,593","0,371","108,0",4:18
+Böyle Kahpedir Dünya,Gripin,1.634.823,61,55,Gripin,01-01-2007,pop-rock,"0,577","0,761","0,591","128,0",4:22
+Paramparça,Teoman,2.632.299,64,60,17,28-04-2000,klasik-rock,"0,513","0,723","0,542","132,0",3:52
+Giderdi Hoşuma,Yaşlı Amca,1.675.746,57,54,Akşamüstü,01-09-2017,alt-rock,"0,551","0,848","0,48","133,0",3:40
+Geçemem Senden,İkilem,357.546,55,48,Geçemem Senden,06-05-2022,other,"0,603","0,617","0,492","125,0",3:27
+Kaybolurum Gülüşünde,İkilem,357.546,55,61,Kaybolurum Gülüşünde,09-04-2021,other,"0,645","0,722","0,537","129,0",3:21
+Bir Sebebi Var,İkilem,357.546,55,61,Bir Sebebi Var,09-10-2020,other,"0,63","0,649","0,519","117,0",3:30
+Seni Çok Özlüyorum,Tuğkan,1.424.833,57,59,Seni Çok Özlüyorum,15-05-2020,huzunlu-pop,"0,566","0,481","0,243","121,0",2:49
+O Ben Olamam,Mavi Gri,1.681.202,61,42,O Ben Olamam,16-01-2020,huzunlu-pop,"0,537","0,557","0,299","120,0",5:19
+Koptu İpim Düşüyorum,İkiye On Kala,1.255.300,53,52,Yaka Faça,09-11-2018,other,"0,655","0,736","0,548","124,0",3:42
+Keder,Yaşlı Amca,1.675.746,57,51,Yaşlı Amca,10-01-2020,alt-rock,"0,534","0,774","0,521","137,0",4:14
+Neden Diye Sorma,Madrigal,1.598.773,61,52,Neden Diye Sorma,11-03-2015,indie-pop,"0,607","0,635","0,574","121,0",3:57
+Ah Benim Hayatım,Adamlar,2.217.051,62,53,Rüyalarda Buruşmuşuz,27-10-2016,alt-rock,"0,504","0,771","0,514","133,0",3:57
+Kadın,Kubilay Karça,614.661,58,44,Mücevher,09-08-2019,huzunlu-pop,"0,54","0,47","0,306","107,0",1:58
+Ölebilirim,Pera,786.489,55,0,Ölebilirim,01-11-2019,pop-rock,"0,615","0,77","0,53","132,0",3:52
+Sar Bu Şehri - Akustik,Canozan,770.334,64,64,Dolunay,16-11-2018,indie-pop,"0,617","0,711","0,583","125,0",3:24
+Seni Kırmışlar,Kubilay Karça,614.661,58,58,Sen Böyle Değildin,13-05-2022,huzunlu-pop,"0,508","0,457","0,249","117,0",2:53
+Marlon Brando,Zeynep Bastık,2.462.361,64,58,Zeynodisco,21-05-2021,indie-pop,"0,647","0,648","0,569","124,0",3:30
+Bi' Tek Ben Anlarım,KÖFN,941.760,53,59,Bi' Tek Ben Anlarım,18-03-2022,other,"0,614","0,638","0,541","116,0",3:16
+Dip,Madrigal,1.598.773,61,65,Neogazino,09-04-2021,indie-pop,"0,623","0,65","0,571","124,0",3:43
+Ben Ölürsem,Toygar Işıklı,437.790,63,48,Yargı (Music From The Original Tv Series),11-01-2022,other,"0,637","0,606","0,497","124,0",4:26
+Bana Unutmayı Anlat,Cem Adrian,3.757.762,63,50,Bana Unutmayı Anlat,29-04-2022,other,"0,571","0,642","0,475","116,0",3:12
+Çatı Katı,Gökhan Türkmen,1.514.692,67,66,En Baştan,01-06-2018,pop-rock,"0,566","0,786","0,481","139,0",4:28
+Haydi Gel Benimle Ol,Sezen Aksu,13.986.198,74,49,Sen Ağlama,06-09-1984,pop-rock,"0,558","0,793","0,564","135,0",4:31
+Sigara,Müslüm Gürses,9.481.605,69,67,Yalan Dünya,01-01-2010,arabesk,"0,613","0,693","0,329","111,0",5:11
+GECELERİN DERDİ,BEGE,861.553,56,0,BEGEFENDİ,29-01-2021,trap,"0,664","0,533","0,501","148,0",2:37
+Bu İş Bitmiş,Melek Mosso,1.616.915,59,0,Bu İş Bitmiş,01-07-2022,other,"0,628","0,68","0,535","121,0",3:39
+velhasıl,Sıla,2.350.187,65,36,şarkıcı,20-05-2022,huzunlu-pop,"0,512","0,453","0,269","120,0",2:57
+Dünya Fani,cakal,3.047.330,66,53,Dünya Fani,17-06-2022,trap,"0,722","0,646","0,5","135,0",1:56
+Buz,Soner Sarıkabadayı,1.085.317,60,56,Buz,23-12-2020,pop,"0,774","0,684","0,691","120,0",4:25
+Mey,Model,1.759.049,64,70,Mey,14-03-2016,pop-rock,"0,58","0,783","0,521","132,0",4:47
+İntihaşk,Onur Can Özcan,1.557.352,57,64,Yaramızda Kalsın,27-07-2018,other,"0,587","0,671","0,464","122,0",3:12
+Beni Hatırladın mı,Cem Adrian,3.757.762,63,54,Tuz Buz,13-11-2017,other,"0,661","0,649","0,537","127,0",4:03
+Toprak Yağmura - Akustik,Canozan,770.334,64,68,Dolunay,16-11-2018,indie-pop,"0,662","0,643","0,508","119,0",3:56
+Ölsem,Sena Şener,861.347,60,57,Ölsem,07-03-2019,alt-rock,"0,53","0,876","0,489","127,0",3:34
+Yara,Kalben,1.219.649,63,70,Sonsuza Kadar,06-11-2017,other,"0,647","0,669","0,541","126,0",3:33
+Ama Bana Bakma Öyle,VAGON,32.816,44,0,Mayıs Rüzgarı,21-03-2020,other,"0,615","0,729","0,518","124,0",4:34
+Aklımda Biri Var,Belki Biraz,20.833,41,0,Modafinil,17-01-2020,other,"0,632","0,721","0,525","116,0",2:37
+Sadece,Kalben,1.219.649,63,67,Kalben,05-02-2016,other,"0,577","0,662","0,486","118,0",2:55
+Karbeyaz,Sertab Erener,2.310.274,68,56,Kırık Kalpler Albümü,03-06-2016,pop-rock,"0,546","0,811","0,517","134,0",4:25
+İncelikler,Sertab Erener,2.310.274,68,50,Sertab Gibi,21-03-1997,pop-rock,"0,546","0,856","0,489","141,0",5:28
+Lal,Sertab Erener,2.310.274,68,44,Lâ'l,14-10-1994,pop-rock,"0,626","0,826","0,541","134,0",3:37
+Yalnızlık Senfonisi,Sertab Erener,2.310.274,68,43,Sakin Ol,28-09-1992,pop-rock,"0,595","0,851","0,588","134,0",5:59
+"Aşk Ölmez, Biz Ölürüz",Sertab Erener,2.310.274,68,28,The Best of Sertab Erener,09-03-2007,pop-rock,"0,621","0,831","0,519","135,0",4:31
+Bir Varmışım Bir Yokmuşum,Sertab Erener,2.310.274,68,35,Rengarenk,02-06-2010,pop-rock,"0,555","0,749","0,492","141,0",3:17
+Porselen Kalbim,Sena Şener,861.347,60,59,Porselen Kalbim,11-03-2022,alt-rock,"0,504","0,87","0,471","127,0",5:15
+Olmazlara İnat,Berkay Altunyay,211.864,52,63,Olmazlara İnat,27-08-2021,other,"0,595","0,661","0,503","122,0",2:49
+Diğer Yarım,ATE,79.230,47,62,Diğer Yarım,08-07-2022,other,"0,586","0,652","0,484","121,0",2:22
+Gül,Cem Adrian,3.757.762,63,29,Gül,01-04-2022,other,"0,604","0,684","0,545","124,0",3:38
+HARMAN,BEGE,861.553,56,0,BEGEFENDİ,29-01-2021,trap,"0,667","0,543","0,471","139,0",2:20
+Affet Beni Sevgilim,Ege Balkiz,19.567,43,0,Affet Beni Sevgilim,16-07-2021,other,"0,642","0,692","0,559","128,0",2:46
+O Bi Karamel,Ozbi,568.113,56,0,Dünya'm 20:24,07-08-2020,other,"0,603","0,682","0,467","120,0",3:17
+Hayatım Kaymış,Melek Mosso,1.616.915,59,0,Hayatım Kaymış,13-08-2021,other,"0,667","0,698","0,497","124,0",4:06
+Kış Bahçeleri,Buray,2.083.364,63,63,Kehanet,19-10-2018,pop,"0,784","0,693","0,665","125,0",3:02
+Aşk,Gökhan Türkmen,1.514.692,67,60,Romantik,19-11-2020,pop-rock,"0,621","0,834","0,579","139,0",3:44
+Bu Şarkı Aşka Yazıldı,Cem Adrian,3.757.762,63,28,Bu Şarkı Aşka Yazıldı,27-04-2020,other,"0,639","0,674","0,528","121,0",4:10
+Ölebilirim,Bedo,399.832,59,60,Ölebilirim,06-11-2020,other,"0,606","0,651","0,472","117,0",3:49
+Meyhaneler Sen...,Gece Yolcuları,818.226,48,60,Neden?,01-01-2013,other,"0,665","0,668","0,477","116,0",4:38
+Muhtemel Aşk,yirmi7,270.647,51,62,Muhtemel Aşk,18-12-2015,pop-rock,"0,548","0,858","0,492","139,0",4:36
+Altüst Olmuşum,Mavi Gri,1.681.202,61,68,Altüst Olmuşum,04-09-2020,huzunlu-pop,"0,584","0,574","0,235","112,0",3:22
+Yan Benimle,Sıla,2.350.187,65,67,Mürekkep,03-06-2016,huzunlu-pop,"0,577","0,468","0,275","110,0",4:43
+Saydim,Ogün Sanlısoy,312.167,49,63,O Gun,01-04-2004,other,"0,653","0,708","0,547","117,0",4:11
+Birader,Heijan,2.079.510,62,0,Birader,01-04-2022,trap,"0,704","0,588","0,471","138,0",3:24
+Yıllar Utansın,Müslüm Gürses,9.481.605,69,53,Mahsun Kul,25-10-2002,arabesk,"0,574","0,62","0,41","104,0",6:46
+Alışamadım,Sibel Bilgiç,38.082,43,61,Alışamadım,23-10-1996,other,"0,623","0,643","0,547","122,0",4:58
+Endamın Yeter,Kıraç,674.418,56,61,Zaman,30-11-2001,klasik-rock,"0,514","0,761","0,644","136,0",3:24
+Yağmurlar,Şebnem Ferah,2.560.933,71,74,Kadın,01-01-2013,klasik-rock,"0,476","0,749","0,576","128,0",5:06
+Ahtapotlar,Zakkum,1.223.721,56,48,Zehr-i Zakkum,01-01-2007,huzunlu-pop,"0,597","0,564","0,326","109,0",4:02
+Endamın Yeter,Kıraç,674.418,56,61,Zaman,30-11-2001,klasik-rock,"0,455","0,8","0,635","129,0",3:24
+İstemem Söz Sevmeni,Ferman Akgül,100.403,41,1,Yürüyorum İçimde,24-03-2017,other,"0,58","0,718","0,552","119,0",3:34
+Yak Bizi,Whisky,20.209,17,22,Güneşin Tahtı,01-01-1996,other,"0,646","0,638","0,559","116,0",4:44
+Tek Başına,Kramp,22.617,22,30,İstanbul Sokakları,04-09-1998,other,"0,614","0,732","0,477","121,0",4:37
+İstanbul Sokakları,Kramp,22.617,22,23,İstanbul Sokakları,04-09-1998,other,"0,605","0,604","0,456","122,0",5:59
+Loş Akşamlar,Objektif,11.873,25,23,Künye,22-09-2000,other,"0,594","0,739","0,495","114,0",5:17
+Ögret Bana,Diken,8.977,16,24,Hedef Büyük,04-05-1998,other,"0,663","0,717","0,528","127,0",4:24
+Zor Güzel,Kurban,156.554,42,29,İnsanlar,01-01-2005,other,"0,584","0,64","0,55","125,0",4:11
+İnsanlar,Kurban,156.554,42,39,İnsanlar,01-01-2005,other,"0,584","0,699","0,504","114,0",5:07
+Lan N'oldu,Kramp,22.617,22,26,Lan N'oldu,04-06-1996,other,"0,578","0,636","0,55","123,0",6:35
+Eve Dönüyorum,80 Kalibre,6.636,12,6,Miras,15-08-2018,other,"0,643","0,674","0,463","119,0",5:16
+Ayna,Whisky,20.209,17,13,Güneşin Tahtı,01-01-1996,other,"0,6","0,607","0,5","127,0",4:48
+Kan,Pois,19.608,44,46,Yüreğime Dokunma,26-11-2021,other,"0,616","0,616","0,559","124,0",3:00
+Ölümle Yaşam Arasında,Mavi Gri,1.681.202,61,62,Ölümle Yaşam Arasında,29-07-2022,huzunlu-pop,"0,502","0,522","0,259","109,0",2:56
+Beyoğlu,Emir Can İğrek,3.212.805,66,44,Beyoğlu,07-10-2022,huzunlu-pop,"0,543","0,536","0,259","114,0",2:28
+Seni Rastgele Sevmedim,Zakkum,1.223.721,56,58,Seni Rastgele Sevmedim,24-06-2022,huzunlu-pop,"0,566","0,462","0,347","108,0",2:40
+kördüğüm,Sefo,2.993.492,67,0,kördüğüm,19-08-2022,trap,"0,713","0,601","0,509","143,0",2:46
+facia,Emir Can İğrek,3.212.805,66,49,facia,22-07-2022,huzunlu-pop,"0,539","0,516","0,306","123,0",2:25
+Nasır,Melike Şahin,1.849.859,65,2,Merhem,26-02-2021,huzunlu-pop,"0,525","0,452","0,325","113,0",4:30
+Adamım,Kader,20.041,38,54,Adamım,28-01-1999,other,"0,643","0,688","0,543","126,0",3:59
+Selamı Var,Sakiler,522.782,57,47,Selamı Var,21-05-2021,other,"0,603","0,606","0,516","127,0",3:18
+Aşk Bir Mevsim,Pinhani,2.397.918,61,57,Küçük Bir Evde,30-04-2021,indie-pop,"0,598","0,719","0,546","127,0",5:28
+İyi Değilim Ben,Pinhani,2.397.918,61,53,Yollar Bizi Bekler,15-02-2019,indie-pop,"0,643","0,724","0,498","128,0",4:09
+Yaşıyorum Sil Baştan,Ari Barokas,95.503,45,49,Lafıma Gücenme,07-02-2018,other,"0,616","0,641","0,455","117,0",3:19
+Yangın Var,Ari Barokas,95.503,45,31,Lafıma Gücenme,07-02-2018,other,"0,574","0,731","0,512","130,0",5:00
+Nafile,Ari Barokas,95.503,45,36,Lafıma Gücenme,07-02-2018,other,"0,624","0,635","0,54","117,0",3:55
+Agah Makamı (Şahsiyet Orijinal Dizi Müzikleri) (feat. Rubato),Haluk Bilginer,5.083,30,30,Agah Makamı (Şahsiyet Orijinal Dizi Müzikleri) (feat. Rubato),10-04-2018,other,"0,606","0,709","0,554","119,0",2:19
+75 Lira - Çıplak Ayaklar Stüdyosu 2013,Büyük Ev Ablukada,349.247,51,30,Ay Şuram Hâlâ Ağrıyo,20-01-2017,alt-rock,"0,482","0,822","0,517","136,0",3:04
+Babildeki Bahçe,Ozbi,568.113,56,0,Rakılı Live 1. Seri,07-10-2016,other,"0,659","0,654","0,567","122,0",4:34
+Dert Bende,Ferdi Özbeğen,274.779,61,45,Piyanist,01-01-1986,other,"0,62","0,729","0,512","127,0",3:47
+Gavurlar,Ari Barokas,95.503,45,47,Lafıma Gücenme,07-02-2018,other,"0,643","0,611","0,522","127,0",4:08
+Birşey Yapmalı,Moğollar,229.734,38,39,Dört Renk,24-06-1996,other,"0,625","0,645","0,46","125,0",3:14
+Saklı Düşler,Cengiz Kurtoğlu,1.502.994,60,57,Saklı Düşler,02-09-2014,arabesk,"0,561","0,664","0,371","108,0",4:23
+Acının İlacı,Adamlar,2.217.051,62,60,Rüyalarda Buruşmuşuz,27-10-2016,alt-rock,"0,505","0,776","0,514","130,0",4:47
+Sarılırım Birine,Adamlar,2.217.051,62,67,Dünya Günlükleri,12-04-2019,alt-rock,"0,57","0,808","0,528","139,0",6:33
+Uzunlar - V2,Evdeki Saat,478.427,51,50,Uzunlar,14-02-2020,indie-pop,"0,588","0,699","0,534","129,0",4:22
+Ne Zamandır Sendeyim,Madrigal,1.598.773,61,60,Neogazino,09-04-2021,indie-pop,"0,648","0,743","0,507","126,0",3:21
+Çok Zaman Geçti Ardından,Pinhani,2.397.918,61,41,Küçük Bir Evde,30-04-2021,indie-pop,"0,658","0,615","0,498","128,0",3:57
+Rüyalarda Buruşmuşum,Adamlar,2.217.051,62,60,Rüyalarda Buruşmuşuz,27-10-2016,alt-rock,"0,507","0,824","0,478","134,0",3:31
+Kelebekler,Madrigal,1.598.773,61,54,Kelebekler,04-12-2019,indie-pop,"0,648","0,743","0,535","128,0",4:07
+Uyursam Geçer Mi?,Eskitilmiş Yaz,80.041,38,52,Kıyılara,17-04-2020,other,"0,627","0,674","0,498","124,0",4:36
+Deme,Derya Bedavacı,799.849,63,2,Deme,24-10-2019,other,"0,595","0,616","0,538","122,0",3:21
+Kır Çiçeğim,Mavi Gri,1.681.202,61,42,Kır Çiçeğim,28-04-2021,huzunlu-pop,"0,539","0,529","0,261","111,0",4:19
+Yerle Bir Olurum,Mavi Gri,1.681.202,61,51,Yerle Bir Olurum,27-08-2021,huzunlu-pop,"0,545","0,589","0,264","122,0",3:19
+Zalim,Levent Yüksel,391.681,54,56,Levent Yüksel'in 2. Cd'si,10-01-1996,other,"0,619","0,617","0,552","121,0",4:38
+Aldırma Deli Gönlüm,Sertab Erener,2.310.274,68,55,Sakin Ol,28-09-1992,pop-rock,"0,63","0,802","0,491","138,0",4:31
+Sevdam Ağlıyor,Sertab Erener,2.310.274,68,61,Lâ'l,14-10-1994,pop-rock,"0,625","0,785","0,522","128,0",3:33
+Arnavut Kaldirimi,Demet Sağıroğlu,120.357,43,58,Kınalı Bebek,25-10-1994,pop,"0,744","0,775","0,722","123,0",4:52
+Sarı Laleler,MFÖ,1.176.742,53,57,Agu,07-04-2006,funk-rock,"0,693","0,819","0,725","118,0",3:20
+Eyvah Neye Yarar,İbrahim Tatlıses,2.952.144,67,5,Bayar Halk Konserleri,23-12-1988,other,"0,582","0,628","0,467","127,0",4:22
+Oy Asiye (Laz Ziya),Reyoss,7,0,0,Oy Asiye (Laz Ziya),20-03-2023,other,"0,573","0,678","0,494","127,0",5:54
+Çökertme,RaiderXD,2.990,33,0,Kardaşlar - Çökertme,15-01-2023,other,"0,625","0,686","0,46","119,0",4:28
+Küllenen Aşk - Slowed & Reverb,th1nk,129,0,0,Küllenen Aşk (Slowed & Reverb),01-03-2023,other,"0,67","0,701","0,513","126,0",5:55
+Sandığımdan Herkes Babam Gibi Gülecek,Farazi,186.215,55,52,Hayalet Islığı (Instrumentals),13-09-2013,other,"0,652","0,61","0,567","124,0",3:40
+Miras (Live),Melike Şahin,1.849.859,65,0,Harbiye 2022 (Live),24-03-2023,huzunlu-pop,"0,545","0,545","0,271","121,0",3:41
+Bedelini Ödedim (Live),Melike Şahin,1.849.859,65,0,Harbiye 2022 (Live),24-03-2023,huzunlu-pop,"0,578","0,54","0,252","122,0",4:24
+Pusulam Rüzgar,Melike Şahin,1.849.859,65,60,Pusulam Rüzgar,24-09-2021,huzunlu-pop,"0,543","0,577","0,237","109,0",4:08
+Firuze (Live @ Harbiye Açık Hava Tiyatrosu),Melike Şahin,1.849.859,65,0,Merhem: İlk Konserler (Live),25-02-2022,huzunlu-pop,"0,515","0,473","0,269","118,0",3:54
+Tutuşmuş Beraber,Melike Şahin,1.849.859,65,61,Tutuşmuş Beraber,07-09-2018,huzunlu-pop,"0,535","0,582","0,337","121,0",4:39
+Deli Kan,Melike Şahin,1.849.859,65,59,Deli Kan,17-11-2017,huzunlu-pop,"0,525","0,539","0,296","109,0",4:08
+BEDELİNİ ÖDEDİM,Melike Şahin,1.849.859,65,0,Merhem,26-02-2021,huzunlu-pop,"0,53","0,525","0,29","110,0",3:45
+Geri Ver,Melike Şahin,1.849.859,65,55,Geri Ver,07-02-2020,huzunlu-pop,"0,594","0,472","0,309","119,0",4:26
+Kara Orman,Melike Şahin,1.849.859,65,51,Kara Orman,06-09-2019,huzunlu-pop,"0,561","0,568","0,298","120,0",3:55
+Ellerin Hani?,Melike Şahin,1.849.859,65,0,Ellerin Hani?,13-01-2023,huzunlu-pop,"0,503","0,456","0,307","116,0",3:05
+Olur Mu,Gazapizm,4.185.952,63,63,Olur Mu,21-10-2022,alt-rap,"0,765","0,667","0,4","127,0",3:29
+Unutulanlar,Farazi,186.215,55,57,Hayalet Islığı (Instrumentals),13-09-2013,other,"0,62","0,688","0,485","129,0",3:20
+Yarım Kalan Sigara,No.1,3.632.674,66,67,Kron1k,21-03-2021,other,"0,618","0,713","0,532","119,0",3:03
+Alışamadım - Speed Up,artex,296,0,0,Alışamadım (Speed Up),28-12-2022,other,"0,577","0,608","0,503","122,0",3:31
+Yalan,Ari Barokas,95.503,45,48,Lafıma Gücenme,07-02-2018,other,"0,59","0,685","0,488","125,0",3:47
+Ömrümüz Yine Geçiyor,Ari Barokas,95.503,45,48,Lafıma Gücenme,07-02-2018,other,"0,643","0,721","0,567","116,0",3:05
+Yalnızlık Kanında Var,Ari Barokas,95.503,45,47,Lafıma Gücenme,07-02-2018,other,"0,607","0,679","0,488","121,0",3:48
+Bir Seher Vaktinde,Siyasiyabend,35.005,33,36,Bir Seher Vaktinde,03-12-2021,other,"0,597","0,635","0,462","119,0",4:20
+Kendimden Geçtim Ama,Hariçten Gazelciler,4.867,15,24,Hariçten Gazelciler 2,05-04-2013,other,"0,608","0,686","0,48","128,0",3:02
+Beyni Yok,Ari Barokas,95.503,45,35,Lafıma Gücenme,07-02-2018,other,"0,586","0,646","0,519","119,0",2:40
+Okyanus,Adamlar,2.217.051,62,0,Harekete kimse mâni olamaz. Part II,20-01-2023,alt-rock,"0,546","0,84","0,472","132,0",3:58
+Salaksın,Ari Barokas,95.503,45,44,Lafıma Gücenme,07-02-2018,other,"0,601","0,603","0,563","122,0",5:12
+Halim Yok,Peyk,94.003,43,38,Halim Yok,19-10-2016,other,"0,667","0,63","0,492","115,0",3:47
+Peyk,Peyk,94.003,43,37,Peyk,28-09-2020,other,"0,619","0,724","0,529","122,0",4:16
+Felekten Saadet Çalınmaz,Ari Barokas,95.503,45,40,Bu Toprak Senin,16-12-2022,other,"0,624","0,719","0,502","128,0",3:58
+Boşver - 2020 Remastered,Redd,386.677,58,41,Gecenin Fişi Yok (Akustik),15-01-2008,alt-rock,"0,543","0,877","0,454","130,0",4:32
+Hayyyam,Siyasiyabend,35.005,33,38,Hayyyam,15-10-2020,other,"0,627","0,627","0,516","115,0",6:50
+Egotango,Ari Barokas,95.503,45,41,Lafıma Gücenme,07-02-2018,other,"0,62","0,707","0,484","130,0",5:43
+Koleler Ve Kilitler,Peyk,94.003,43,38,Koleler Ve Kilitler,01-02-2017,other,"0,638","0,617","0,567","120,0",4:07
+Vazgeçtim Senden,Mavi Gri,1.681.202,61,38,Vazgeçtim Senden,03-03-2023,huzunlu-pop,"0,579","0,497","0,343","119,0",2:37
+Melekler,Sibel Can,1.728.559,61,55,Özledin Mi?,24-02-2005,arabesk,"0,55","0,651","0,38","98,0",4:46
+Yalanı Bırak,Sakiler,522.782,57,58,Yalanı Bırak,11-11-2022,other,"0,584","0,647","0,507","121,0",2:57
+Dön Ne Olur,Ebru Gündeş,4.182.393,72,57,Dön Ne Olur,21-12-1999,arabesk,"0,591","0,652","0,359","107,0",4:59
+Fırtınadayım,Mabel Matiz,5.450.427,67,65,Maya,20-06-2018,indie-pop,"0,596","0,749","0,579","121,0",4:22
+Firuze,Sezen Aksu,13.986.198,74,49,Firuze,01-01-1982,pop-rock,"0,574","0,856","0,544","138,0",5:04
+Garezi Var,Kahraman Deniz,1.108.044,61,61,23,14-10-2016,huzunlu-pop,"0,53","0,564","0,274","118,0",4:17
+Son Arzum,Skapova,311.346,59,60,Son Arzum,05-09-2022,alt-rock,"0,568","0,852","0,506","136,0",3:23
+İcardi - Aşkın Olayım,harn,1.303,17,0,İcardi - Aşkın Olayım,08-03-2023,other,"0,639","0,604","0,507","129,0",3:29
+HANÇER,Patron,1.259.904,56,33,HANÇER,24-03-2023,other,"0,648","0,709","0,519","126,0",2:23
+Zor,Nev,136.812,43,40,Zor,18-06-2021,other,"0,628","0,624","0,525","124,0",4:19
+Sükut-u Hayal,Nev,136.812,43,48,Işığım ve Gölgem,01-01-2007,other,"0,654","0,621","0,532","115,0",4:34
+Susma,Nev,136.812,43,42,Işığım ve Gölgem,01-01-2007,other,"0,665","0,615","0,452","119,0",5:16
+Yokum,Nev,136.812,43,7,Yokum,01-01-2011,other,"0,585","0,697","0,499","126,0",3:56
+Gölgeler Mabedi,Nev,136.812,43,4,Kıyısız Deniz,12-05-2014,other,"0,662","0,722","0,538","115,0",5:27
+Davetsiz Misafir,Nev,136.812,43,2,Kıyısız Deniz,12-05-2014,other,"0,584","0,629","0,489","125,0",5:15
+Doldum,Adamlar,2.217.051,62,59,Dünya Günlükleri,12-04-2019,alt-rock,"0,523","0,814","0,431","139,0",7:22
+Benden Bana,Adamlar,2.217.051,62,58,Dünya Günlükleri,12-04-2019,alt-rock,"0,504","0,82","0,503","136,0",4:57
+Ayy / Ben Hala Rüyada,Oğuzhan Koç,1.641.516,62,61,Ben Hala Rüyada,29-11-2013,pop,"0,754","0,747","0,693","115,0",3:18
+Istanbul,Pamela,140.645,52,61,Sehir Rehberi,23-11-2004,other,"0,595","0,678","0,477","130,0",4:12
+Ben Böyleyim,Athena,1.115.823,54,55,Ben Böyleyim,01-01-2011,funk-rock,"0,63","0,77","0,655","121,0",3:21
+Güneye Giderken,mor ve ötesi,2.607.858,63,50,Kayıtlar 2005-2016,20-12-2016,alt-rock,"0,502","0,819","0,522","137,0",4:10
+Yak Gel,Funda Arar,1.323.564,63,68,Zamanın Eli,16-02-2009,other,"0,597","0,617","0,531","120,0",4:00
+Sevmemeliyiz,Sena Şener,861.347,60,64,İnsan Gelir İnsan Geçer,14-09-2018,alt-rock,"0,568","0,885","0,525","137,0",5:58
+Biliyorsun,Sezen Aksu,13.986.198,74,52,Ağlamak Güzeldir,01-01-1981,pop-rock,"0,569","0,78","0,566","133,0",5:16
+Bir Beyaz Orkide,Cihan Mürtezaoğlu,208.138,51,66,Bitsin Bu Delilik,30-09-2016,other,"0,614","0,636","0,507","117,0",3:45
+Yalnızca Sitem,Sezen Aksu,13.986.198,74,46,Git,02-09-1986,pop-rock,"0,594","0,871","0,564","129,0",4:56
+Bir Çocuk Sevdim,Sezen Aksu,13.986.198,74,48,Sezen Aksu '88,22-02-1988,pop-rock,"0,602","0,822","0,509","138,0",4:55
+Geri Dön,Sezen Aksu,13.986.198,74,51,Sen Ağlama,06-09-1984,pop-rock,"0,593","0,829","0,486","134,0",4:19
+Sen Ağlama,Sezen Aksu,13.986.198,74,44,Sen Ağlama,06-09-1984,pop-rock,"0,612","0,754","0,572","127,0",5:46
+Git...,Sezen Aksu,13.986.198,74,43,Git,02-09-1986,pop-rock,"0,595","0,87","0,529","142,0",5:43
+Geçer,Sezen Aksu,13.986.198,74,37,Sezen Aksu '88,22-02-1988,pop-rock,"0,628","0,807","0,504","142,0",4:20
+Beni Unutma,Sezen Aksu,13.986.198,74,36,Git,02-09-1986,pop-rock,"0,572","0,83","0,589","128,0",4:53
+Ah,Duman,7.441.445,67,56,Belki Alışman Lazım,16-10-2002,alt-rock,"0,527","0,845","0,497","139,0",4:53
+Kan ve Gül,Kıraç,674.418,56,57,Zaman,30-11-2001,klasik-rock,"0,521","0,735","0,636","123,0",4:20
+Akrebin Gözleri,Erkin Koray,811.083,53,37,Gün Ola Harman Ola,10-05-1996,klasik-rock,"0,522","0,85","0,578","128,0",7:04
+Aşkına Elveda,Cem Köksal,38.802,34,31,Vigilante Episode One,30-03-2011,other,"0,664","0,735","0,561","128,0",3:55
+Gel Gönlümü Yerden Yere Vurma Güzel Ne Olursun,Melihat Gülses,59.878,36,38,Musikişinas Tüccarlarımız,31-07-2006,other,"0,571","0,68","0,463","130,0",2:59
+Gemiler,Teoman,2.632.299,64,56,O,19-06-1998,klasik-rock,"0,458","0,848","0,595","128,0",4:20
+Böyle Ayrılık Olmaz,Kolpa,1.040.755,57,55,Yatağın Soğuk Tarafı,01-01-2011,pop-rock,"0,634","0,859","0,536","130,0",3:35
+İyi Düşün Taşın,Mavi Işıklar,95.199,48,47,Mavi Işıklar - Türk Pop Tarihi,01-01-2002,other,"0,581","0,623","0,505","118,0",2:30
+Özlem,Erkut Taçkın,20.692,29,34,Özlem,10-11-2014,other,"0,589","0,703","0,545","123,0",2:58
+bi umudum var ben duramam,Sworthy,11,0,0,bi umudum var ben duramam,28-07-2023,other,"0,646","0,625","0,553","128,0",1:03
+Sarmaşık,Mabel Matiz,5.450.427,67,59,Maya,20-06-2018,indie-pop,"0,663","0,682","0,5","127,0",4:38
+Yorma,Seksendört,1.466.688,60,3,Yorma,26-05-2017,pop-rock,"0,558","0,76","0,519","131,0",3:57
+Duvar,Zeynep Casalini,29.482,41,59,Nihayet,01-01-2004,other,"0,596","0,633","0,54","129,0",4:13
+Sana Çıkıyor Yollar - Kaderimin Oyunu Orijinal Dizi Müziği,Derya Uluğ,1.552.474,59,67,Sana Çıkıyor Yollar (Kaderimin Oyunu Orijinal Dizi Müziği),03-12-2021,other,"0,6","0,701","0,451","124,0",3:49
+Ağla Kalbim - Mix,MERT,79,0,0,Ağla Kalbim - Mix,17-12-2023,other,"0,639","0,609","0,464","119,0",2:12
+Seni Her Gördüğümde,Erkin Koray,811.083,53,59,Mesafeler,01-01-1974,klasik-rock,"0,471","0,78","0,637","131,0",3:19
+Aşkımız Bitecek,Erkin Koray,811.083,53,38,Mesafeler,01-01-1974,klasik-rock,"0,461","0,726","0,64","125,0",3:18
+Gün Ola Harman Ola,Erkin Koray,811.083,53,26,Gün Ola Harman Ola,10-05-1996,klasik-rock,"0,491","0,741","0,546","122,0",5:33
+Kıskanırım,Erkin Koray,811.083,53,22,Kıskanırım (45'lik),01-01-1971,klasik-rock,"0,505","0,795","0,58","129,0",3:42
+Estarabim (feat. Erkin Koray) - Radio version,Orphaned Land,87.855,32,23,Orphaned Land & Friends,12-05-2017,other,"0,617","0,675","0,53","117,0",4:40
+Tek Başıma,Sertab Erener,2.310.274,68,51,Kırık Kalpler Albümü,03-06-2016,pop-rock,"0,565","0,846","0,585","128,0",4:21
+Ah Bu Ben,Mazhar Alanson,458.155,47,56,Türk Lokumuyla Tatlı Rüyalar,19-04-2002,other,"0,615","0,699","0,459","123,0",4:02
+Bahsetmem Lazım,Güliz Ayla,437.913,50,64,Güliz Ayla,02-10-2015,indie-pop,"0,586","0,687","0,551","125,0",3:18
+Aşk Şarkısı - Live,Şanışer,1.110.658,58,57,Aşk Şarkısı (Live),01-08-2022,alt-rap,"0,715","0,606","0,412","119,0",3:53
+Yalan Dünya,Neşet Ertaş,3.250.952,55,57,Hata Benim,15-11-2000,other,"0,591","0,682","0,461","122,0",6:24
+İlaç Ol Yaralarıma,Mavi Gri,1.681.202,61,58,İlaç Ol Yaralarıma,24-11-2023,huzunlu-pop,"0,581","0,513","0,292","114,0",2:40
+Hoşçakal,Şebnem Ferah,2.560.933,71,57,Can Kırıkları,01-01-2005,klasik-rock,"0,436","0,775","0,627","132,0",4:45
+Karakol,Mabel Matiz,5.450.427,67,49,Fatih,21-07-2023,indie-pop,"0,62","0,724","0,579","125,0",4:33
+Yanımda Kal,Harun Kolçak,451.906,53,58,Çeyrek Asır,16-09-2016,funk-rock,"0,605","0,778","0,638","126,0",4:38
+İnceden İnceden,Tuğba Yurt,827.594,54,63,İnceden İnceden,20-09-2017,other,"0,663","0,61","0,562","115,0",3:11
+Çingenem,Ebru Gündeş,4.182.393,72,64,Dön Ne Olur,21-12-1999,arabesk,"0,571","0,688","0,412","113,0",3:10
+Karam,Hakan Peker,206.592,52,61,İlla ki,16-02-2000,pop,"0,755","0,709","0,739","118,0",3:33
+Aşkın Yalanmış,Göksel,1.782.533,63,65,Bende Bi' Aşk Var,09-01-2012,pop,"0,777","0,777","0,665","123,0",4:03
+Kaç Yıl Geçti Aradan,Sezen Aksu,13.986.198,74,42,Serçe,01-07-1978,pop-rock,"0,606","0,816","0,558","133,0",3:31
+Dillere Düşeceğiz Seninle,Gülşen,2.348.536,69,64,Önsöz,23-03-2009,pop,"0,708","0,725","0,683","124,0",3:38
+Yerine Sevemem,Gökhan Kırdar,98.381,43,0,Serseri Mayın,28-01-1994,other,"0,592","0,6","0,453","119,0",4:22
+Sol Yanım,Onur Macit,769,0,1,Sol Yanım,07-04-2022,other,"0,637","0,676","0,514","127,0",3:05
+Ölüyorum Anla,Mert Demir,808.005,62,60,Ölüyorum Anla,28-06-2024,indie-pop,"0,605","0,658","0,523","131,0",3:03
+Cehennemin Dibi,Mert Demir,808.005,62,55,Cehennemin Dibi,22-12-2023,indie-pop,"0,653","0,626","0,587","123,0",2:50
+Bir Sevmek Bin Defa Ölmek Demekmiş,3 Hürel,124.728,39,50,Efsane Yeniden,13-06-1996,other,"0,647","0,724","0,452","117,0",5:03
+En Dibine Kadar,Dedublüman,2.312.951,69,65,En Dibine Kadar,09-12-2022,huzunlu-pop,"0,51","0,455","0,302","118,0",3:00
+Bir Bela,Hande Yener,2.135.132,68,3,Kraliçe,20-05-2013,pop,"0,695","0,754","0,668","116,0",4:33
+Acele Etme,Hande Yener,2.135.132,68,62,Aşk Kadın Ruhundan Anlamıyor,04-06-2012,pop,"0,712","0,771","0,627","120,0",5:07
+Ne Bu Neşe,Serdar Ortaç,2.382.453,68,56,Ray,11-06-2012,pop,"0,719","0,764","0,708","117,0",3:46
+Kim Bu Gözlerindeki Yabancı,Ebru Gündeş,4.182.393,72,57,Âşık,31-01-2019,arabesk,"0,59","0,674","0,358","102,0",3:27
+Benimki,Yalın,2.487.185,71,2,Benimki,08-06-2015,huzunlu-pop,"0,514","0,542","0,257","112,0",3:36
+Gülüşünde Bi' Şeyler Saklı,Mavi Gri,1.681.202,61,51,Gülüşünde Bi' Şeyler Saklı,03-05-2024,huzunlu-pop,"0,506","0,583","0,336","122,0",2:38
+Anlamazdın,Ayla Dikmen,201.867,54,69,Klasikler (Orijinal Kayıtlar),01-01-2006,other,"0,633","0,66","0,509","130,0",3:42
+Aşkın Olayım,Simge,2.300.087,67,63,Ben Bazen,01-06-2018,pop,"0,784","0,744","0,714","117,0",4:11
+beni bul anne,,0,0,0,yörük boyu,,other,"0,612","0,621","0,495","126,0",3:54
+Mayıs 3,Rope,186.960,50,49,Mayıs 3,20-05-2017,other,"0,617","0,719","0,486","125,0",3:15
+Mayıs 6,Rope,186.960,50,58,Mayıs 6,06-05-2020,other,"0,651","0,728","0,517","129,0",4:03
+Ölüme İnat,Hidra,837.174,58,61,Hedefte,14-01-2013,other,"0,626","0,619","0,479","117,0",3:17
+Gibi,Hidra,837.174,58,56,Holigan,21-09-2014,other,"0,635","0,729","0,552","115,0",3:14
+Çünkü Bu,Hidra,837.174,58,0,08-13,31-12-2012,other,"0,642","0,627","0,482","125,0",3:05
+Aynı Dündeyiz,Hidra,837.174,58,54,Yenilmez,28-08-2013,other,"0,63","0,722","0,473","126,0",3:10
+Dönecek Yeniden,Hidra,837.174,58,42,Holigan,21-09-2014,other,"0,642","0,678","0,508","128,0",3:14
+Hayat Gibi,Toygar Işıklı,437.790,63,0,Hayat Gibi,01-01-2013,other,"0,603","0,734","0,452","129,0",5:12
+Deva Bize Sevişler,Yalın,2.487.185,71,2,Deva Bize Sevişler,19-02-2019,huzunlu-pop,"0,596","0,466","0,35","115,0",3:38
+Halbuki,Yalın,2.487.185,71,69,Halbuki,05-06-2020,huzunlu-pop,"0,524","0,535","0,255","122,0",3:22
+Her şey Sensin,Yalın,2.487.185,71,71,Her şey Sensin,23-03-2007,huzunlu-pop,"0,555","0,559","0,276","116,0",4:36
+Sonsuz Ol - Remastered,Yalın,2.487.185,71,3,Ellerine Sağlık (Remastered),01-01-2004,huzunlu-pop,"0,536","0,487","0,292","115,0",4:12
+Küçücüğüm,Yalın,2.487.185,71,70,Bir Bakmışsın,13-04-2005,huzunlu-pop,"0,51","0,587","0,286","120,0",3:49
+Olmasa Da Olur,Yalın,2.487.185,71,63,Sen En Güzelsin,04-07-2012,huzunlu-pop,"0,591","0,502","0,28","116,0",3:44
+Zalim (Ellerine Sağlık) - Remastered,Yalın,2.487.185,71,3,Ellerine Sağlık (Remastered),01-01-2004,huzunlu-pop,"0,522","0,47","0,261","122,0",4:06
+Kaybolan Yıllar,Sezen Aksu,13.986.198,74,52,Serçe,01-07-1978,pop-rock,"0,598","0,798","0,498","132,0",3:07
+Tükeneceğiz,Sezen Aksu,13.986.198,74,52,Sen Ağlama,06-09-1984,pop-rock,"0,578","0,857","0,54","137,0",4:19
+Zalim,Sezen Aksu,13.986.198,74,51,Düş Bahçeleri,14-07-1996,pop-rock,"0,608","0,776","0,579","142,0",4:38
+Bu Gece,Sezen Aksu,13.986.198,74,44,Sen Ağlama,06-09-1984,pop-rock,"0,604","0,809","0,5","140,0",2:58
+Son Bakış,Sezen Aksu,13.986.198,74,47,Sezen Aksu Söylüyor,07-07-1989,pop-rock,"0,557","0,841","0,539","142,0",5:52
+Sarı Odalar,Sezen Aksu,13.986.198,74,47,Deliveren,02-06-2000,pop-rock,"0,594","0,83","0,487","128,0",5:50
+Kurşuni Renkler,Sezen Aksu,13.986.198,74,43,Yürüyorum Düş Bahçeleri'nde...,01-01-2009,pop-rock,"0,625","0,872","0,56","139,0",4:37
+Masum Değiliz,Sezen Aksu,13.986.198,74,38,Deli Kızın Türküsü,17-09-1993,pop-rock,"0,581","0,858","0,508","138,0",5:38
+Begonvil,Sezen Aksu,13.986.198,74,38,DEMO,04-12-2018,pop-rock,"0,541","0,811","0,525","137,0",4:05
+Yansın İstanbul,Sezen Aksu,13.986.198,74,41,DEMO,04-12-2018,pop-rock,"0,607","0,826","0,538","135,0",3:20
+Ne Kavgam Bitti Ne Sevdam,Sezen Aksu,13.986.198,74,38,Gülümse,16-07-1991,pop-rock,"0,541","0,817","0,481","135,0",3:28
+Öyle Bir Geçer Zaman ki,Erkin Koray,811.083,53,54,Tamam Artık (Remastered),29-06-1990,klasik-rock,"0,457","0,847","0,532","133,0",5:19
+Şaşkın,Erkin Koray,811.083,53,53,Şaşkın,22-05-1974,klasik-rock,"0,497","0,823","0,639","122,0",4:20
+Mesafeler,Erkin Koray,811.083,53,37,Mesafeler,01-01-1974,klasik-rock,"0,44","0,731","0,553","128,0",3:36
+Estarabim,Erkin Koray,811.083,53,35,Şaşkın,22-05-1974,klasik-rock,"0,512","0,747","0,578","126,0",5:16
+Yolcu Yolunda Gerek,Erkin Koray,811.083,53,31,Hay Yam Yam,26-01-1989,klasik-rock,"0,471","0,789","0,649","124,0",5:26
+Gökteki Yıldızlar,Erkin Koray,811.083,53,25,Gün Ola Harman Ola,10-05-1996,klasik-rock,"0,498","0,829","0,608","134,0",4:30
+Kıskanırım Seni Ben,Erkin Koray,811.083,53,29,Tamam Artık (Remastered),29-06-1990,klasik-rock,"0,506","0,723","0,576","129,0",4:02
+Karlı Dağlar,Erkin Koray,811.083,53,24,Şaşkın,22-05-1974,klasik-rock,"0,436","0,711","0,551","128,0",3:36
+Tutturamazsın,Erkin Koray,811.083,53,22,Gün Ola Harman Ola,10-05-1996,klasik-rock,"0,473","0,82","0,598","134,0",4:39
+Uzat Serçe Parmağını,Erkin Koray,811.083,53,20,"Çöpçüler / Ceylan / Dünden Esintiler, Vol.2",27-07-1993,klasik-rock,"0,44","0,784","0,535","123,0",4:21
+Sevince,Erkin Koray,811.083,53,50,Şaşkın,22-05-1974,klasik-rock,"0,517","0,834","0,587","121,0",5:16
+Gül Pembe,Barış Manço,3.052.229,63,57,"Mançoloji, Vol. 1",23-02-1999,klasik-rock,"0,437","0,84","0,638","129,0",5:08
+Sarı Çizmeli Mehmet Ağa,Barış Manço,3.052.229,63,0,Sarı Çizmeli Mehmet Ağa,01-01-1993,klasik-rock,"0,433","0,84","0,568","135,0",4:27
+Canözüm,Gökhan Tepe,286.351,51,0,Can Özüm,17-02-1999,pop,"0,749","0,755","0,706","118,0",5:24
+Dere Boyu Kavaklar,Barış Manço,3.052.229,63,50,7'den Sonsuza Barış Manço Set,01-01-2014,klasik-rock,"0,438","0,733","0,559","133,0",5:13
+Dönence,Barış Manço,3.052.229,63,42,Mançoloji 2,23-02-1999,klasik-rock,"0,469","0,836","0,57","132,0",6:10
+Gamzedeyim,Barış Manço,3.052.229,63,45,7'den Sonsuza Barış Manço Set,01-01-2014,klasik-rock,"0,444","0,848","0,617","128,0",4:23
+Eğri Eğri Doğru Doğru,Barış Manço,3.052.229,63,56,Eğri Eğri Doğru Doğru,01-01-1980,klasik-rock,"0,527","0,718","0,582","133,0",3:08
+Ahmet Beyin Ceketi,Barış Manço,3.052.229,63,46,Sahibinden İhtiyaçtan,07-12-1989,klasik-rock,"0,464","0,818","0,645","126,0",5:43
+Aynalı Kemer,Barış Manço,3.052.229,63,62,Sarı Çizmeli Mehmet Ağa,01-01-1993,klasik-rock,"0,507","0,714","0,563","136,0",3:05
+Kara Sevda,Barış Manço,3.052.229,63,56,"Mançoloji, Vol. 1",23-02-1999,klasik-rock,"0,479","0,76","0,643","127,0",4:24
+Anlıyorsun Değil Mi,Barış Manço,3.052.229,63,53,Sarı Çizmeli Mehmet Ağa,01-01-1993,klasik-rock,"0,498","0,802","0,54","130,0",2:10
+Seni Kaybettiğimde,Pera,786.489,55,47,En Güzel Mevsimim,29-01-2016,pop-rock,"0,62","0,84","0,49","129,0",4:26
+Sevdiğim Kadın,Pera,786.489,55,47,Bir Başka Dünya,21-12-2012,pop-rock,"0,611","0,829","0,569","132,0",3:53
+Çökertme,Cem Karaca,2.015.501,57,50,"Cem Karaca Anısına, Vol. 3",02-04-1998,klasik-rock,"0,441","0,711","0,567","126,0",3:01
+Ceviz Ağacı,Cem Karaca,2.015.501,57,56,Merhaba Gençler,01-01-1987,klasik-rock,"0,457","0,729","0,552","127,0",5:49
+Deniz Üstü Köpürür,Cem Karaca,2.015.501,57,53,Cem Karaca Koleksiyon,01-01-2015,klasik-rock,"0,485","0,767","0,533","126,0",4:09
+Resimdeki Gözyaşları,Cem Karaca,2.015.501,57,56,Cemaz-Ûl-Evvel (Güldeste),01-11-1994,klasik-rock,"0,439","0,794","0,569","126,0",3:05
+Kendim Ettim Kendim Buldum,Cem Karaca,2.015.501,57,46,Anısına...,26-03-2004,klasik-rock,"0,459","0,764","0,54","134,0",4:03
+Bekle Beni,Cem Karaca,2.015.501,57,40,"Ölümsüzler, Vol. 3",05-02-2016,klasik-rock,"0,521","0,847","0,599","123,0",3:21
+Sevda Kuşun Kanadında,Cem Karaca,2.015.501,57,45,Töre,02-02-1994,klasik-rock,"0,468","0,729","0,566","128,0",7:01
+Kara Sevda,Cem Karaca,2.015.501,57,40,Haykırış,08-08-1998,klasik-rock,"0,436","0,771","0,581","128,0",4:18
+Resimdeki Gözyaşı,Cem Karaca,2.015.501,57,36,Töre,02-02-1994,klasik-rock,"0,438","0,745","0,56","130,0",3:02
+Bidanem,Cem Karaca,2.015.501,57,26,Merhaba Gençler,01-01-1987,klasik-rock,"0,489","0,737","0,543","125,0",6:08
+1 Mayıs,Cem Karaca,2.015.501,57,28,1 Mayıs - Durduramayacaklar Halkın Coşkun Akan Selini,01-05-1977,klasik-rock,"0,525","0,757","0,604","133,0",4:06
+Allah Yar,Cem Karaca,2.015.501,57,34,Bindik Bir Alamete,01-01-1999,klasik-rock,"0,463","0,757","0,628","134,0",4:37
+Yarım Porsiyon Aydınlık,Cem Karaca,2.015.501,57,33,Merhaba Gençler,01-01-1987,klasik-rock,"0,527","0,729","0,568","135,0",2:48
+Obur Dünya,Cem Karaca,2.015.501,57,35,"Cem Karaca'nın Apaşlar, Kardaşlar, Moğollar, Ferdy Kleine'a Teşekkürleriyle",01-01-2016,klasik-rock,"0,45","0,754","0,646","135,0",2:55
+Dadaloğlu,Cem Karaca,2.015.501,57,35,"Ölümsüzler, Vol. 3",05-02-2016,klasik-rock,"0,459","0,807","0,589","129,0",4:38
+Bindik Bir Alamete Gideyoz Kıyamete,Cem Karaca,2.015.501,57,45,Bindik Bir Alamete,01-01-1999,klasik-rock,"0,454","0,763","0,628","126,0",3:33
+Beni Siz Delirttiniz,Cem Karaca,2.015.501,57,43,Parka,01-02-1977,klasik-rock,"0,441","0,789","0,601","129,0",3:08
+Çökertme,Cem Karaca,2.015.501,57,52,Haykırış,08-08-1998,klasik-rock,"0,498","0,787","0,644","127,0",3:01
+Ben Olmalıydım,Gülden Karaböcek,843.558,57,61,Duyarmısın Feryadımı (Gülden Karaböcek Altın Klasikleri),26-08-1987,other,"0,641","0,661","0,485","125,0",5:05
+Gözüm Seni Görmese De,Gülden Karaböcek,843.558,57,59,"Ağlıyorsam Yaşıyorum - Gülden Karaböcek Klasikleri, Vol. 2",26-08-1987,other,"0,652","0,711","0,499","122,0",3:51
+Ağlıyorsam Yaşıyorum,Gülden Karaböcek,843.558,57,57,"Ağlıyorsam Yaşıyorum - Gülden Karaböcek Klasikleri, Vol. 2",26-08-1987,other,"0,633","0,634","0,529","125,0",3:56
+Tek Sevenim Sen Olsan,Gülden Karaböcek,843.558,57,38,"Ağlıyorsam Yaşıyorum - Gülden Karaböcek Klasikleri, Vol. 2",26-08-1987,other,"0,649","0,61","0,569","122,0",5:09
+Ayrılık Kolyesi,Gülden Karaböcek,843.558,57,32,Müzik Ve Ben,07-10-2013,other,"0,61","0,671","0,56","125,0",4:20
+Kaybolan Hayaller,Gülden Karaböcek,843.558,57,28,Müzik Ve Ben,07-10-2013,other,"0,624","0,711","0,493","128,0",3:22
+Mahşer Gününde,Gülden Karaböcek,843.558,57,31,Gülden Fırtınası,02-02-1987,other,"0,624","0,689","0,46","126,0",4:30
+Duyarmısın Feryadımı,Gülden Karaböcek,843.558,57,39,Duyarmısın Feryadımı (Gülden Karaböcek Altın Klasikleri),26-08-1987,other,"0,636","0,65","0,528","115,0",6:06
+Bahtıma Yanarım,Gülden Karaböcek,843.558,57,28,Müzik Ve Ben,07-10-2013,other,"0,668","0,695","0,498","126,0",4:23
+Can Mı Dayanır,Gülden Karaböcek,843.558,57,17,Gülden Fırtınası,02-02-1987,other,"0,667","0,66","0,451","118,0",6:15
+Dur Bırakma Beni,Gülden Karaböcek,843.558,57,18,Orijinal Kayıtlar ve Remixler 1971 / 1973,01-06-2018,other,"0,621","0,673","0,52","123,0",3:10
+Kısmetse Olur,Gülden Karaböcek,843.558,57,24,Kısmetse Olur,29-05-1992,other,"0,615","0,655","0,543","123,0",3:22
+Dostum Dostum,Gülden Karaböcek,843.558,57,20,Dostum,11-02-1987,other,"0,62","0,648","0,453","116,0",4:32
+Aşkın Gözyaşları,Gülden Karaböcek,843.558,57,21,Gülden Fırtınası,02-02-1987,other,"0,612","0,735","0,464","129,0",3:34
+Elimde Fotoğrafın,Bergen,1.772.697,55,62,Sevgimin Bedeli,01-01-1998,other,"0,584","0,644","0,505","117,0",6:55
+Acıların Kadını,Bergen,1.772.697,55,37,Acıların Kadını,18-06-1998,other,"0,618","0,667","0,503","125,0",3:16
+Dertli Dertli,Bergen,1.772.697,55,41,Acıların Kadını,18-06-1998,other,"0,602","0,642","0,547","116,0",4:20
+Geceler,Bergen,1.772.697,55,35,Sevgimin Bedeli,01-01-1998,other,"0,655","0,691","0,531","117,0",3:55
+Bırakın Gitsin,Bergen,1.772.697,55,26,İnsan Severse,24-12-1998,other,"0,668","0,634","0,471","117,0",4:29
+Canım Dediklerim,Bergen,1.772.697,55,36,Sevgimin Bedeli,01-01-1998,other,"0,626","0,734","0,478","120,0",5:32
+Ayrılık Aşkımın Çilesi,Bergen,1.772.697,55,22,İstemiyorum,01-01-1998,other,"0,588","0,69","0,502","114,0",5:12
+Ne Oldu Sanki,Bergen,1.772.697,55,25,Giden Gençliğim,02-02-2006,other,"0,631","0,628","0,521","120,0",5:16
+Gücüm Kalmadı,Bergen,1.772.697,55,22,Gücüm Kalmadı,06-12-2024,other,"0,64","0,629","0,54","127,0",6:52
+Söyle Canım,Erol Evgin,293.918,56,56,Söyle Canım / Hep Böyle Kal,01-01-1980,other,"0,576","0,614","0,555","117,0",3:30
+İçim Yanar,Ferdi Tayfur,1.399.340,60,6,Mor Güller / Fadime'nin Düğünü,03-03-1994,other,"0,603","0,664","0,481","128,0",4:18
+Hatıran Yeter,Ferdi Tayfur,1.399.340,60,7,Hoşçakal,16-10-1990,other,"0,623","0,689","0,522","124,0",4:47
+Sabahçı Kahvesi,Ferdi Tayfur,1.399.340,60,6,Prangalar,26-06-1992,other,"0,629","0,649","0,551","124,0",4:40
+Huzurum Kalmadı,Ferdi Tayfur,1.399.340,60,55,Huzurum Kalmadı,28-08-2002,other,"0,651","0,699","0,486","124,0",3:53
+Sigarayı Bıraktım,Ferdi Tayfur,1.399.340,60,4,Zengin Olursam,17-12-1999,other,"0,578","0,619","0,464","119,0",3:33
+Bana Da Söyle,Ferdi Tayfur,1.399.340,60,3,Bana Da Söyle,22-07-1991,other,"0,588","0,697","0,511","121,0",5:31
+Gitmeyin Yıllar,Ferdi Tayfur,1.399.340,60,1,"Ferdifon'dan Seçmeler, Vol. 2",04-02-1987,other,"0,584","0,654","0,472","124,0",5:53
+Hasret Sancısı,Ferdi Tayfur,1.399.340,60,40,Ben de Özledim,01-01-1982,other,"0,639","0,69","0,57","123,0",4:45
+Bir Yabancı Gibi,Ferdi Tayfur,1.399.340,60,0,Ya Benimsin Ya Toprağın,01-01-1987,other,"0,619","0,62","0,488","121,0",4:47
+Seni Dilendim,Ferdi Tayfur,1.399.340,60,40,Sen de mi Leyla,01-01-1983,other,"0,575","0,65","0,451","116,0",4:07
+Sensin Tesellim,Ferdi Tayfur,1.399.340,60,0,Yaktı Beni,24-11-2004,other,"0,652","0,735","0,511","122,0",4:16
+Bu Günler Yaşanacak,Ferdi Tayfur,1.399.340,60,41,Nisan Yağmuru,22-03-2002,other,"0,638","0,658","0,551","122,0",4:58
+Tövbekar,Ferdi Tayfur,1.399.340,60,39,Yuvasız Kuşlar,28-08-2002,other,"0,578","0,604","0,541","119,0",4:37
+Sen Nerdesin Ben Nerdeyim,Ferdi Tayfur,1.399.340,60,0,Prangalar,26-06-1992,other,"0,597","0,675","0,47","121,0",5:11
+Son Arzum,Nilüfer,1.259.419,62,68,Selam Söyle,14-05-2004,pop,"0,764","0,757","0,686","114,0",3:26
+Sana Güvenmiyorum,Nilüfer Örer,6.003,36,49,Şımarık,01-01-1997,other,"0,581","0,709","0,549","120,0",3:39
+İnkar Etme,Nilüfer,1.259.419,62,62,Sen Mühimsin,01-01-1990,pop,"0,772","0,656","0,706","121,0",4:15
+Rüyalara Sor,Mustafa Ceceli,1.483.295,59,52,Rüyalara Sor,19-08-2020,huzunlu-pop,"0,599","0,464","0,33","119,0",3:04
+İlle De Aşk,Mustafa Ceceli,1.483.295,59,53,Kalpten,15-12-2014,huzunlu-pop,"0,53","0,59","0,284","113,0",2:51
+Bedel,Mustafa Ceceli,1.483.295,59,43,Bedel,18-10-2019,huzunlu-pop,"0,582","0,511","0,349","119,0",3:20
+Sevenler Ağlarmış,3 Hürel,124.728,39,50,3 Hürel (Türk Pop Tarihi),01-01-1999,other,"0,594","0,713","0,521","120,0",5:53
+Sana Değmez,3 Hürel,124.728,39,31,Efsane Yeniden,13-06-1996,other,"0,641","0,689","0,47","116,0",4:54
+Haram,3 Hürel,124.728,39,28,3 Hürel (Türk Pop Tarihi),01-01-1999,other,"0,591","0,629","0,457","120,0",2:38
+Ne Olurdu Sanki,3 Hürel,124.728,39,19,Efsane Yeniden,13-06-1996,other,"0,598","0,675","0,489","125,0",4:30
+Ağlarsa Anam Ağlar,3 Hürel,124.728,39,25,1953 Hürel,01-01-1999,other,"0,599","0,637","0,553","130,0",3:57
+Gönül Sabreyle Sabreyle,3 Hürel,124.728,39,21,3 Hürel (Türk Pop Tarihi),01-01-1999,other,"0,638","0,613","0,566","127,0",4:24
+Son Günümüz,3 Hürel,124.728,39,15,1953 Hürel,01-01-1999,other,"0,662","0,739","0,554","116,0",4:22
+Canım Kurban,3 Hürel,124.728,39,22,3 Hürel (Türk Pop Tarihi),01-01-1999,other,"0,657","0,635","0,535","127,0",3:17
+Anlasana,İlhan İrem,193.824,46,53,Dünden Yarına,01-01-1988,other,"0,646","0,695","0,509","123,0",4:26
+Boşver Arkadaş (Haydi Sil Gözlerini),İlhan İrem,193.824,46,46,Işık ve Sevgiyle 30 Yıl,01-01-2004,other,"0,597","0,658","0,504","124,0",3:06
+Yazık Oldu Yarınlara,İlhan İrem,193.824,46,48,Dünden Yarına,01-01-1988,other,"0,658","0,613","0,512","118,0",4:08
+Konuşamıyorum (Sazlıklardan Havalanan),İlhan İrem,193.824,46,49,Işık ve Sevgiyle 30 Yıl,01-01-2004,other,"0,664","0,652","0,564","119,0",4:05
+Haydi Sil Gözlerini (Boşver Arkadaş),İlhan İrem,193.824,46,32,Dünden Yarına,01-01-1988,other,"0,57","0,708","0,538","126,0",2:56
+Yolgeçen Hanı,İlhan İrem,193.824,46,32,Bezginin Gizli Mektupları,01-01-2000,other,"0,616","0,693","0,493","115,0",2:45
+Sen Bilirsin,İlhan İrem,193.824,46,32,Işık ve Sevgiyle 30 Yıl,01-01-2004,other,"0,623","0,63","0,502","117,0",3:33
+Ölmüş İçimde Hasret,İlhan İrem,193.824,46,24,Bezginin Gizli Mektupları,01-01-2000,other,"0,597","0,716","0,491","123,0",3:11
+Bırak Kalsın Öylece,İlhan İrem,193.824,46,17,Bulutlara Köprü,01-01-2000,other,"0,627","0,668","0,491","125,0",2:10
+İster İnan İster İnanma,İlhan İrem,193.824,46,12,Hayat Öpücüğü - The Best Of İlhan İrem 3,01-01-1998,other,"0,575","0,614","0,544","121,0",3:56
+Bak Şu Aynaya,İlhan İrem,193.824,46,11,Düşler Ve Ötesi,01-01-2000,other,"0,582","0,72","0,503","114,0",3:03
+Hoşgeldin,İlhan İrem,193.824,46,15,Sevgililer Günü - The Best Of İlhan İrem 1,01-01-1995,other,"0,666","0,628","0,533","116,0",2:27
+Sevgi Sevgiyle Çoğalır,İlhan İrem,193.824,46,16,Düşler Ve Ötesi,01-01-2000,other,"0,635","0,622","0,562","118,0",3:58
+Hayatın Üçüncü Gözü,İlhan İrem,193.824,46,18,İlhan-ı Aşk,01-01-1992,other,"0,635","0,635","0,495","128,0",6:20
+"Yurtta Barış, Dünyada Barış",İlhan İrem,193.824,46,19,Dünden Yarına,01-01-1988,other,"0,587","0,655","0,487","125,0",2:58
+Çöpçüler,Erkin Koray,811.083,53,56,"Çöpçüler / Ceylan / Dünden Esintiler, Vol.2",27-07-1993,klasik-rock,"0,453","0,802","0,614","120,0",3:59
+Gül Pembe,Barış Manço,3.052.229,63,0,"Mançoloji, Vol. 1",23-02-1999,klasik-rock,"0,478","0,729","0,557","131,0",5:08
+Dağlar Dağlar - V1,Barış Manço,3.052.229,63,0,7'den Sonsuza Barış Manço Set,01-02-2014,klasik-rock,"0,431","0,807","0,628","136,0",5:36
+Gibi Gibi - V2,Barış Manço,3.052.229,63,0,7'den Sonsuza Barış Manço Set,01-02-2014,klasik-rock,"0,472","0,729","0,538","126,0",3:56
+Ele Güne Karşı,MFÖ,1.176.742,53,57,Ele Güne Karşı Yapayalnız,29-01-2013,funk-rock,"0,673","0,744","0,668","124,0",3:09
+Ceviz Ağacı,Cem Karaca,2.015.501,57,0,Merhaba Gençler,02-02-1994,klasik-rock,"0,444","0,818","0,62","122,0",5:49
+Namus Belası,Cem Karaca,2.015.501,57,0,En İyileriyle Cem Karaca,31-05-2017,klasik-rock,"0,529","0,73","0,594","120,0",4:24
+Deniz Üstü Köpürür,Cem Karaca,2.015.501,57,0,2.2.1973 Ankara,02-02-2016,klasik-rock,"0,495","0,772","0,617","130,0",4:08
+Islak Islak,Barış Akarsu,994.237,53,0,Islak Islak,31-12-2004,other,"0,585","0,658","0,532","128,0",4:46
+Gözlerin - Yalancı Yarim,Barış Akarsu,994.237,53,0,Düşmeden Bulutlarda Koşmam Gerek,03-08-2006,other,"0,579","0,614","0,54","123,0",3:10
+Aynalı Kemer,Barış Manço,3.052.229,63,0,Barış Manço Forever,01-02-2014,klasik-rock,"0,468","0,845","0,568","122,0",3:06
+Bu Son Olsun,Cem Karaca,2.015.501,57,0,Bu Son Olsun,04-03-2015,klasik-rock,"0,458","0,722","0,596","130,0",2:46
+Tamirci Çırağı,Cem Karaca,2.015.501,57,56,Ölümsüzler,01-01-2004,klasik-rock,"0,491","0,819","0,613","134,0",4:56
+İşte Geldik Gidiyoruz,Cem Karaca,2.015.501,57,46,Merhaba Gençler,01-01-1987,klasik-rock,"0,496","0,752","0,592","128,0",6:07
+Uzun İnce Bir Yoldayım,Özdemir Erdoğan,247.549,52,40,Yorumcu,01-01-1989,other,"0,645","0,641","0,457","128,0",3:41
+Gönül Ferman Dinlemiyor,Barış Manço,3.052.229,63,54,Sahibinden İhtiyaçtan,07-12-1989,klasik-rock,"0,525","0,779","0,544","128,0",4:48
+Yiyin Efendiler,Cem Karaca,2.015.501,57,36,Yiyin Efendiler,05-01-2017,klasik-rock,"0,489","0,784","0,647","136,0",4:31
+Leylim Ley,Haramiler,156.220,43,35,Kar Yağıyor Bugün Ankara'ya,26-06-2002,other,"0,663","0,618","0,553","123,0",4:55
+Dönence,Barış Manço,3.052.229,63,58,Hal Hal,22-12-1989,klasik-rock,"0,467","0,806","0,622","135,0",6:44
+Sen De Başını Alıp Gitme,Cem Karaca,2.015.501,57,48,Nerde Kalmıştık,21-10-1992,klasik-rock,"0,507","0,712","0,538","124,0",4:35
+Geçti Dost Kervanı,Barış Manço,3.052.229,63,30,Estağfurullah Ne Haddimize!,09-04-1983,klasik-rock,"0,434","0,718","0,625","128,0",4:17
+Üryan Geldim,Cem Karaca,2.015.501,57,37,Anadolu Efsaneleri,29-12-2013,klasik-rock,"0,493","0,78","0,58","131,0",4:17
+Yeni Bir Gün Doğdu Merhaba,Barış Manço,3.052.229,63,43,Sarı Çizmeli Mehmet Ağa,01-01-1993,klasik-rock,"0,438","0,785","0,604","124,0",2:03
+Gurbet,Özdemir Erdoğan,247.549,52,60,Yorumcu,01-01-1989,other,"0,601","0,672","0,474","127,0",3:26
+Aç Kapıyı Gir İçeri,Özdemir Erdoğan,247.549,52,0,Hayatım Şarkılarda,02-05-2001,other,"0,624","0,655","0,526","127,0",3:56
+Hal Hal,Barış Manço,3.052.229,63,38,"Mançoloji, Vol. 1",23-02-1999,klasik-rock,"0,498","0,719","0,614","132,0",3:48
+Aya Bak Yıldıza Bak,Tpao Batman Orkestrası,4.578,17,31,Şeker Alalım,01-01-1968,other,"0,655","0,608","0,46","121,0",2:22
+Haram Geceler,Cem Kısmet - Pilli Bebek,89.822,50,60,Behzat Ç. (Orijinal Dizi ve Film Müzikleri),05-07-2012,other,"0,615","0,685","0,487","126,0",4:34
+Sevmek İstiyorum,Erkut Taçkın,20.692,29,41,En İyileriyle Erkut Taçkın,01-01-1975,other,"0,644","0,617","0,535","125,0",2:51
+Mihrimah,Nur Yoldas,19.607,42,42,Sultan-ı Yegah,11-06-1998,other,"0,586","0,733","0,513","127,0",5:03
+Ben Kimim,Candan Erçetin,1.324.074,56,53,Kırık Kalpler Durağında,01-01-2009,other,"0,642","0,623","0,465","126,0",4:28
+Kader Bağladı Bizi,Handan Kara,17.474,32,30,Kader Bağladı Bizi / Gidip Te Dönmemek Var,02-04-1973,other,"0,597","0,724","0,543","114,0",4:08
+Sen Aslı'dan Da Güzelsin,Cumhur,2.603,17,34,Sen Aslı'dan Da Güzelsin,13-04-1981,other,"0,651","0,638","0,458","125,0",2:57
+Yalnızlar Rıhtımı,Korkut Koray,1.605,8,20,Yalnızlar Rıhtımı (45'lik),01-01-1969,other,"0,628","0,611","0,505","120,0",3:09
+Ankara Rüzgarı,Nesrin Sipahi,26.600,43,41,"Nesrin Sipahi, Vol. 1",30-03-2000,other,"0,62","0,679","0,494","118,0",3:23
+Olmalı mı Olmamalı mı,Bülent Ortaçgil,244.690,43,42,Benimle Oynar Mısın,15-04-1993,other,"0,58","0,68","0,537","118,0",2:11
+Olacak O Kadar,Gündoğarken,21.585,42,32,Ankara'dan Abim Geldi,03-05-1993,other,"0,621","0,606","0,554","118,0",3:16
+Yemyeşil Bir Deniz,İlhan İrem,193.824,46,40,Bezginin Gizli Mektupları,01-01-2000,other,"0,617","0,654","0,468","129,0",5:58
+Hasret,Tanju Okan,120.751,44,35,Bir Zamanlar (Best Of),13-08-1999,other,"0,656","0,677","0,56","126,0",3:02
+Mazi Kalbimde Yaradir,Esin Engin,31.833,34,39,Tangolar,01-01-1990,other,"0,612","0,645","0,5","126,0",2:55
+İstemem,Erkin Koray,811.083,53,25,Mesafeler,01-01-1974,klasik-rock,"0,457","0,721","0,575","128,0",3:23
+Helvacı,Mavi Işıklar,95.199,48,38,Mavi Işıklar - Türk Pop Tarihi,01-01-2002,other,"0,66","0,625","0,547","130,0",2:46
+Sarıldım Boşluğa,Enes Bozyiğit,422,21,20,Sarıldım Boşluğa,25-08-2023,other,"0,665","0,61","0,506","119,0",3:21
+Dere Boyu Kavaklar,Eren Can Maşalacı,124,12,1,Zaman Yolcusu,20-12-2024,other,"0,654","0,646","0,516","114,0",3:08
+Beraber Olsak,Enes Bozyiğit,422,21,19,Beraber Olsak,20-06-2023,other,"0,59","0,679","0,486","124,0",2:53
+Hekimoğlu,Eren Can Maşalacı,124,12,0,Zaman Yolcusu,20-12-2024,other,"0,616","0,683","0,509","126,0",3:06
+Ay Karanlık,Cem Karaca,2.015.501,57,32,Cem Karaca Koleksiyon,01-01-2015,klasik-rock,"0,45","0,836","0,621","124,0",3:05
+Çark-ı Felek,Cem Karaca,2.015.501,57,21,Merhaba Gençler,01-01-1987,klasik-rock,"0,431","0,767","0,558","126,0",4:08
+Çaya Kaç Şeker,Moğollar,229.734,38,34,Umut Yolunu Bulur,25-11-2009,other,"0,654","0,723","0,564","114,0",4:22
+Gündüzüm Seninle,Ferdi Özbeğen,274.779,61,62,Bir Sır Gibi,01-01-1986,other,"0,636","0,719","0,537","116,0",4:03
+Bir Gülü Sevdim,Ferdi Özbeğen,274.779,61,60,Piyanist,01-01-1986,other,"0,623","0,633","0,509","115,0",4:09
+Büklüm Büklüm,Ferdi Özbeğen,274.779,61,55,Mutluluklar,09-07-1980,other,"0,67","0,7","0,461","129,0",6:00
+Affetmem Asla Seni,Ferdi Özbeğen,274.779,61,42,Seviyorum Delicesine,01-01-1986,other,"0,66","0,673","0,534","120,0",4:21
+Bir Sevgi İstiyorum,Ferdi Özbeğen,274.779,61,44,Piyanist,01-01-1986,other,"0,667","0,612","0,461","116,0",3:34
+Bir İlkbahar Sabahı,Ferdi Özbeğen,274.779,61,37,Sevdiğiniz Şarkılar (Orijinal Plak Kayıtları),01-01-1986,other,"0,652","0,61","0,518","121,0",4:57
+Haykıracak Nefesim Kalmasa Bile,Ferdi Özbeğen,274.779,61,38,Nerelerdeydiniz?,30-01-2013,other,"0,666","0,633","0,481","119,0",3:21
+Akşam Olur Gizli Gizli,Ferdi Özbeğen,274.779,61,32,Bir Sır Gibi,01-01-1986,other,"0,65","0,698","0,538","119,0",3:33
+Kaç Yıl Geçti Aradan,Ferdi Özbeğen,274.779,61,30,Teşekkürler,17-05-1979,other,"0,597","0,61","0,474","126,0",3:34
+Rüyalarda Buluşuruz,Ferdi Özbeğen,274.779,61,32,Yaktı Geçti,08-12-1989,other,"0,628","0,622","0,47","121,0",4:57
+Bir Fırtına Tuttu Bizi,Eylem Aktaş,81.623,51,42,Özlem,12-04-2018,other,"0,611","0,675","0,566","117,0",3:48
+Ayrılık Kolyesi,Ferdi Özbeğen,274.779,61,23,Teşekkürler,17-05-1979,other,"0,601","0,637","0,464","117,0",4:33
+İşte Bu Bizim Hikayemiz,Ferdi Özbeğen,274.779,61,36,Nice Yıllara,01-01-1980,other,"0,639","0,716","0,534","115,0",5:25
+Seni Bana Yazmışlar,Oya & Bora,23.708,40,35,Seni Bana Yazmışlar,04-11-1992,other,"0,654","0,646","0,461","118,0",3:24
+Yarası Saklım,Sezen Aksu,13.986.198,74,27,Düş Bahçeleri,14-07-1996,pop-rock,"0,576","0,812","0,561","131,0",5:03
+Kan Çiçekleri,Zülfü Livaneli,555.492,48,0,Gökyüzü Herkesindir,01-01-2008,other,"0,669","0,604","0,499","121,0",4:17
+Beni Hatırla,Ceylan Ertem,611.595,47,42,Duyuyor Musun?,05-08-2022,other,"0,645","0,635","0,505","127,0",5:07
+Aşkın Kederi,Manuş Baba,1.007.512,57,47,Dönersen Islık Çal,27-04-2017,other,"0,584","0,602","0,55","130,0",3:49
+Benzemez Kimse Sana,Müzeyyen Senar,287.278,47,2,Saklı Kayıtlar (1934 - 1996),22-01-2010,other,"0,583","0,715","0,495","124,0",2:37
+Okul Yolunda,Ümit Besen,731.704,53,38,Nostalji,05-06-1998,other,"0,634","0,682","0,481","127,0",4:03
+Elbet Bir Gün Buluşacağız,Müzeyyen Senar,287.278,47,39,Son Aşkımı Canlandıran,01-01-1987,other,"0,572","0,609","0,558","121,0",5:52
+Sevmeyeceğim,Yıldız Tilbe,3.793.187,68,45,Haberi Olsun (New version),02-05-2002,arabesk,"0,543","0,707","0,42","102,0",4:07
+Taht Kurmuşsun Kalbime,Esengül,21.006,30,41,Beterin Beteri Var / Taht Kurmuşsun Kalbime,16-07-2005,other,"0,574","0,665","0,47","123,0",3:47
+Gamzedeyim Deva Bulmam,Müzeyyen Senar,287.278,47,43,"Yayınlanmamış Şarkılar, Vol. 2",16-04-2012,other,"0,652","0,655","0,454","125,0",3:17
+Herşey Seni Hatırlatıyor,Muazzez Abacı,101.329,41,43,Efendim,03-06-1992,other,"0,587","0,63","0,472","118,0",5:45
+Bak Yeşil Yeşil,Emel Sayın,228.262,46,43,Türk Film Müzikleri,01-01-2006,other,"0,658","0,605","0,524","118,0",4:02
+Bulamazsın,Zeki Müren,831.664,52,40,Hayat Öpücüğü,01-01-1987,other,"0,6","0,658","0,516","115,0",5:09
+Asiye,Kâzım Koyuncu,1.170.316,55,43,Hayde,17-03-2004,other,"0,598","0,619","0,474","128,0",4:45
+Gurbette Sevgilim,Ferdi Özbeğen,274.779,61,56,Piyanist,01-01-1986,other,"0,623","0,688","0,546","127,0",4:30
+Yolcu Yolunda Gerek,Nilüfer,1.259.419,62,44,Esmer Günler,01-01-1989,pop,"0,789","0,759","0,663","121,0",3:52
+Boş Vere Boş Vere,Nil Burak,98.785,40,34,Boş Vere Boş Vere,25-05-1980,other,"0,618","0,728","0,51","120,0",3:42
+Kurumuş Bir Dal Gibiyim,Ferdi Özbeğen,274.779,61,33,Şarkılarım,05-04-1991,other,"0,588","0,645","0,476","128,0",4:11
+Geceler Düşman,Aşkın Nur Yengi,831.637,57,41,Kara Çiçeğim,12-12-1994,pop,"0,768","0,658","0,739","120,0",5:32
+Gökyüzünde Yalnız Gezen Yıldızlar,Zeki Müren,831.664,52,37,Anılarım,29-05-1990,other,"0,647","0,74","0,567","116,0",3:34
+Kalbe Dolan O İlk Bakış,Nesrin Sipahi,26.600,43,38,"Nesrin Sipahi, Vol. 2",30-03-2000,other,"0,636","0,637","0,548","129,0",3:08
+Ne Çok Çektim Hasretini,Müzeyyen Senar,287.278,47,22,Ben Seni Unutmak Için Sevmedim,02-11-2006,other,"0,576","0,739","0,476","128,0",2:50
+Yıldızların Altında,Nesrin Sipahi,26.600,43,39,Odeon Yılları (Türk Sanat Müziği Serisi),09-12-2006,other,"0,65","0,65","0,551","128,0",3:14
+Nasıl Geçti Habersiz O Güzelim Yıllarım,Zeki Müren,831.664,52,36,"Zeki Müren Klasikleri, Vol. 6",20-01-1970,other,"0,588","0,683","0,547","125,0",3:28
+Beklenen Şarkı,Zeki Müren,831.664,52,39,Hayat Öpücüğü,01-01-1987,other,"0,661","0,604","0,534","129,0",3:22
+Aşk Yok Olmaktır,Yıldız Tilbe,3.793.187,68,70,Aşkperest,02-08-1996,arabesk,"0,586","0,659","0,343","113,0",4:40
+Kız Sen İstanbul'un Neresindensin,Emel Sayın,228.262,46,38,Sizlerle (Sevgisiz Yaşayamam),12-03-2007,other,"0,658","0,669","0,487","122,0",4:21
+Deli Eylül,Hüsnü Arkan,182.869,46,37,Kanat Sesleri,08-10-2023,other,"0,579","0,633","0,476","122,0",3:40
+İki Keklik - Akustik,Ceren Gündoğdu,25.733,39,35,Kalbimin Odalarından,17-09-2021,other,"0,57","0,729","0,474","116,0",4:38
+Sorma,Ayşegül Aldinç,297.677,51,42,Sorma / Benden Söylemesi,30-05-1991,pop,"0,762","0,779","0,721","117,0",3:53
+Kulaklarını Kapat,Stabil,542.890,55,35,STANBUL,08-11-2024,other,"0,572","0,682","0,56","126,0",2:45
+Mesele2,Stabil,542.890,55,0,Stabil,30-11-2012,other,"0,655","0,72","0,565","120,0",3:15
+Bilmeyen mi var ?,Stabil,542.890,55,0,Bilmeyen mi var ?,24-04-2020,other,"0,664","0,655","0,462","119,0",3:00
+Seke Seke,Stabil,542.890,55,0,OKSMRN1,30-07-2021,other,"0,584","0,622","0,564","127,0",2:11
+Sensiz Devam Edemem,Stabil,542.890,55,0,OKSMRN2,27-05-2022,other,"0,666","0,691","0,471","129,0",2:02
+Mesele,Stabil,542.890,55,0,Stabil,30-11-2012,other,"0,639","0,73","0,544","118,0",2:34
+O,Stabil,542.890,55,0,O,21-07-2018,other,"0,629","0,625","0,487","125,0",3:12
+Ben Kimim,Stabil,542.890,55,0,Stabil,30-11-2012,other,"0,583","0,702","0,564","129,0",2:47
+Gökyüzü,Stabil,542.890,55,0,Gökyüzü,17-09-2018,other,"0,609","0,739","0,566","115,0",3:01
+MATHILDA,Stabil,542.890,55,0,OKSMRN1,30-07-2021,other,"0,63","0,729","0,566","118,0",3:33
+İstanbul,Stabil,542.890,55,47,STANBUL,08-11-2024,other,"0,627","0,731","0,467","126,0",2:50
+Uyu,Stabil,542.890,55,0,Stabil,30-11-2012,other,"0,594","0,738","0,47","128,0",2:34
+Reenkarne,Stabil,542.890,55,0,Reenkarne,12-12-2018,other,"0,579","0,699","0,527","128,0",5:31
+Sokak Güvercini,Stabil,542.890,55,51,Sokak Güvercini,13-01-2018,other,"0,615","0,637","0,48","115,0",3:09
+Serseri Bey,Stabil,542.890,55,0,Serseri Bey,26-04-2019,other,"0,596","0,615","0,45","120,0",4:03
+Lavanta,Stabil,542.890,55,0,Stabil,30-11-2012,other,"0,643","0,736","0,556","122,0",1:31
+Neopolis Şekli,Stabil,542.890,55,38,Neopolis Şekli,10-03-2023,other,"0,608","0,676","0,462","122,0",2:51
+Fani,Emre Altuğ,388.448,51,30,Fani,24-01-2025,pop,"0,776","0,741","0,702","115,0",2:48
+Ben Kalbimin Orta Yerine Seni Yazdım V2,Burak,4.062,16,0,Ben Kalbimin Orta Yerine Seni Yazdım V2,30-04-2024,other,"0,577","0,718","0,485","119,0",3:55
+Kapak Olsun,Defkhan,410.533,54,56,Kapak Olsun,28-07-2023,other,"0,665","0,61","0,47","120,0",2:27
+Ela Gözlüm,Cem Adrian,3.757.762,63,0,Essentials / Seçkiler 2,15-01-2016,other,"0,643","0,677","0,558","115,0",4:03
+son defa,Gece Üç Gibi,1.330,13,18,son defa,14-02-2025,other,"0,629","0,686","0,508","114,0",3:23
+UYUMADIM,Alpir,220,9,19,UYUMADIM,13-12-2024,other,"0,664","0,623","0,557","117,0",3:18
+Canın Beni Çekti,Melike Şahin,1.849.859,65,3,AKKOR,08-11-2024,huzunlu-pop,"0,51","0,479","0,253","118,0",3:13
+Durma Yürüsene,Melike Şahin,1.849.859,65,3,AKKOR,08-11-2024,huzunlu-pop,"0,572","0,552","0,262","112,0",3:41
+Diva Yorgun,Melike Şahin,1.849.859,65,3,Diva Yorgun,16-06-2023,huzunlu-pop,"0,524","0,457","0,299","120,0",4:19
+Canın Beni Çekti,Melike Şahin,1.849.859,65,3,Canın Beni Çekti,25-09-2024,huzunlu-pop,"0,515","0,501","0,281","112,0",3:13
+Korkmasam Ölürdüm,Melike Şahin,1.849.859,65,0,AKKOR,08-11-2024,huzunlu-pop,"0,566","0,534","0,254","107,0",4:44
+Öpmem Lâzım,Melike Şahin,1.849.859,65,0,Merhem,26-02-2021,huzunlu-pop,"0,517","0,491","0,24","121,0",4:18
+Sanki Rüya,Birsen Tezer,220.873,50,55,Kağıttan Kaptanlar,28-04-2023,other,"0,601","0,656","0,509","125,0",3:42
+Medcezir,Levent Yüksel,391.681,54,60,Med Cezir,14-05-1993,other,"0,579","0,676","0,472","128,0",4:33
+Papatya,Hirai Zerdüş,309.986,59,58,Papatya,10-05-2019,other,"0,607","0,662","0,482","121,0",3:08
+Hüznün Gemileri,Ekin Uzunlar,396.960,53,59,Hüznün Gemileri,01-11-2018,other,"0,593","0,638","0,457","126,0",4:46
+Harika,Ebru Gündeş,4.182.393,72,62,Evet,25-09-2008,arabesk,"0,597","0,592","0,361","106,0",3:18
+Havaalanı,Hande Yener,2.135.132,68,2,Teşekkürler,01-01-2011,pop,"0,787","0,733","0,686","125,0",3:45
+Seviyorsun,Hande Yener,2.135.132,68,1,"Hepsi Hit, Vol. 1",06-06-2016,pop,"0,772","0,709","0,684","126,0",3:39
+Bana Aşk Ver,Aynur Aydın,463.482,50,1,Bana Aşk Ver,08-12-2017,other,"0,617","0,723","0,507","115,0",3:08
+Aşkım (By Volga Tamöz),Bengü,1.767.479,65,57,Dört Dörtlük,08-06-2011,pop,"0,78","0,75","0,68","126,0",3:20
+Telli Turnam,Musa Eroğlu,992.207,56,40,Kavimler Kapısı Anadolu,21-10-1998,other,"0,65","0,695","0,524","116,0",3:54
+Eda,Emre Fel,659.556,61,50,Eda,14-02-2025,alt-rock,"0,546","0,794","0,528","140,0",3:22
+Tatildeyim,Emre Altuğ,388.448,51,25,Tatildeyim,30-04-2024,pop,"0,771","0,668","0,671","128,0",2:51
+Senden Güzeli Mi Var,Emre Fel,659.556,61,56,VEDA TÜRKÜSÜ,22-12-2023,alt-rock,"0,514","0,91","0,485","137,0",3:23
+Delalım,Akif Çekirge,11.115,45,30,Akif Çekirge Eşliğinde Şanlıurfa Asbap Geceleri ( Vol.1 ),01-01-2006,other,"0,596","0,728","0,56","115,0",4:39
+Gir Kanıma,Harun Kolçak,451.906,53,57,Beni Affet,14-11-1991,funk-rock,"0,639","0,786","0,669","114,0",3:47
+Ben Değilim,Mela Bedel,123.014,57,6,Ben Değilim,15-11-2024,other,"0,616","0,722","0,544","124,0",3:42
+Ben Sana Gelemem,Mela Bedel,123.014,57,7,Ben Sana Gelemem,23-02-2024,other,"0,622","0,659","0,5","116,0",3:12
+KENDİNE İNAN,Mela Bedel,123.014,57,42,Bölüm Sonu,14-04-2023,other,"0,629","0,706","0,563","129,0",2:29
+Bu Gece Uyumamışam,Akif Çekirge,11.115,45,27,Akif Çekirge Eşliğinde Şanlıurfa Asbap Geceleri ( Vol.1 ),01-01-2006,other,"0,626","0,614","0,484","123,0",3:57
+Hele Ninna,Yahya Çekirge,1.558,34,27,Akif Çekirge Eşliğinde Asbap Geceleri ( Vol.2 ),01-03-2005,other,"0,604","0,658","0,496","122,0",3:21
+Kundurama Kum Doldu,Akif Çekirge,11.115,45,26,Akif Çekirge Eşliğinde Şanlıurfa Asbap Geceleri ( Vol.3 ),01-01-2008,other,"0,631","0,605","0,483","116,0",2:48
+Bahçe Duvarından Aştım,İbocan,24.324,41,56,Aşkımsın Sen (Vay Gençliğim),29-03-2016,other,"0,631","0,697","0,455","128,0",3:50
+Işıklı Yol,İzel,346.876,54,65,Işıklı Yol,01-06-2007,pop,"0,723","0,683","0,709","127,0",4:24
+Bir Fotoğraf Karesinde,Rope,186.960,50,42,Bir Fotoğraf Karesinde,31-07-2020,other,"0,66","0,603","0,548","119,0",2:55
+Aleni Aleni,Volkan Konak,663.106,56,63,Manolya,22-04-2015,other,"0,598","0,669","0,534","116,0",3:55
+Yarim Yarim,Volkan Konak,663.106,56,55,Mimoza,26-01-2009,other,"0,657","0,619","0,567","121,0",4:23
+Göklerde Kartal Gibiydim,Volkan Konak,663.106,56,46,Mimoza,26-01-2009,other,"0,653","0,638","0,5","124,0",3:51
+Herkesin Bir Derdi Var (Cerrahpaşa),Volkan Konak,663.106,56,52,Maranda,17-12-2003,other,"0,589","0,63","0,549","126,0",4:16
+Deniz Üstü Köpürür,Cem Karaca,2.015.501,57,44,"Anısına, Vol. 2",04-05-1998,klasik-rock,"0,506","0,831","0,629","128,0",4:09
+Farazi V Kayra - (Bir) Fotoğrafın Rüyası,,0,0,0,Hayalet Islığı,,other,"0,586","0,644","0,511","116,0",3:40
+Üç Kitap ve Naralar,,0,0,0,Yağmurlu Bir Gün,,other,"0,655","0,723","0,453","117,0",4:12
+Zorun Ne Sevgilim,İrem Derici,1.553.537,61,47,İki,18-09-2013,other,"0,653","0,717","0,48","121,0",3:43
+Dünyanın En Güzel Kızı,Mavi Gri,1.681.202,61,62,Gök Mavi Yer Gri,09-12-2022,huzunlu-pop,"0,592","0,549","0,263","120,0",3:37
+Vazgeç Artık Rüyalarımdan,Mavi Gri,1.681.202,61,59,Vazgeç Artık Rüyalarımdan,22-12-2023,huzunlu-pop,"0,551","0,539","0,245","107,0",3:14
+O Ben Olamam,Mavi Gri,1.681.202,61,58,Gök Mavi Yer Gri,09-12-2022,huzunlu-pop,"0,537","0,533","0,251","121,0",5:19
+Aklımı Kaçırdım,Mavi Gri,1.681.202,61,60,İlkyaz Yağmuru,25-05-2018,huzunlu-pop,"0,559","0,499","0,25","121,0",3:04
+Ben Sende Yandım - Mavi,Mavi Gri,1.681.202,61,58,İlkyaz Yağmuru,25-05-2018,huzunlu-pop,"0,575","0,546","0,264","113,0",3:25
+İkili Delilik,Sezen Aksu,13.986.198,74,40,Bahane,10-02-2005,pop-rock,"0,556","0,82","0,596","141,0",4:34
+Alev Alev,Feridun Düzağaç,837.070,49,55,Orjinal Alt Yazılı,11-03-2013,huzunlu-pop,"0,565","0,545","0,262","114,0",4:26
+Şanıma İnanma,Sezen Aksu,13.986.198,74,44,Bahane,10-02-2005,pop-rock,"0,542","0,849","0,572","127,0",3:55
+Ya Ya Ya Ya,Hande Yener,2.135.132,68,58,İki Deli,11-12-2015,pop,"0,781","0,741","0,692","112,0",2:56
+Bu Benim Hayatım,No.1,3.632.674,66,66,Bu Benim Hayatım,12-09-2015,other,"0,595","0,713","0,487","129,0",2:19
+İçimde Dinmez Sızısın,Grup A1,1.458,12,28,Yeşil Gözler Sürmeli / İçimde Dinmez Sızısın,11-05-1979,other,"0,634","0,659","0,495","120,0",4:29
+Seviyorum Delicesine,Ferdi Özbeğen,274.779,61,56,Seviyorum Delicesine,01-01-1986,other,"0,595","0,665","0,531","127,0",3:21
+Dilek Taşı,Ferdi Özbeğen,274.779,61,51,Şarkılarım,05-04-1991,other,"0,61","0,614","0,511","125,0",5:00
+Başkası Mı Var,Ferdi Özbeğen,274.779,61,49,Belki Bir Gün (Orijinal Plak Kayıtları),01-01-1985,other,"0,654","0,652","0,528","124,0",3:42
+Ara Beni Lütfen,Kenan Doğulu,1.248.329,66,75,Festival,13-06-2006,pop,"0,72","0,665","0,628","128,0",4:39
+Keşke,Yalın,2.487.185,71,62,Bir Bakmışsın,13-04-2005,huzunlu-pop,"0,564","0,571","0,261","118,0",4:57
+Benden Adam Olmaz,Şehrin Azizleri,2.234,22,39,Benden Adam Olmaz,15-11-2018,other,"0,659","0,642","0,468","126,0",3:51
+Dolunay,Reynmen,3.191.624,62,56,RnBesk,02-02-2020,pop,"0,78","0,763","0,716","122,0",3:19
+Naber?,Hande Yener,2.135.132,68,45,Mükemmel,02-06-2014,pop,"0,756","0,745","0,707","122,0",3:18
+Unutamadım,Barış Manço,3.052.229,63,53,"Mançoloji, Vol. 1",23-02-1999,klasik-rock,"0,53","0,746","0,58","126,0",4:27
+Güzel Kadın,Raviş,37.031,35,51,Güzel Kadın,16-10-2015,other,"0,574","0,699","0,519","117,0",3:36
+Yabani,Aşkın Nur Yengi,831.637,57,57,Haberci,06-06-1997,pop,"0,763","0,681","0,684","125,0",3:43
+Benimle Oynama,Burak Kut,201.773,48,57,Benimle Oynama / Çılgınım,29-04-1994,pop,"0,781","0,744","0,681","126,0",4:16
+İkinci Bahar,Sezen Aksu,13.986.198,74,46,Firuze,01-01-1982,pop-rock,"0,624","0,863","0,502","129,0",2:44
+Zor Kadın,Sertab Erener,2.310.274,68,53,Sertab Erener,24-03-1999,pop-rock,"0,553","0,776","0,577","139,0",3:48
+Sen Banasın,Cihan Mürtezaoğlu,208.138,51,49,Bitsin Bu Delilik,30-09-2016,other,"0,588","0,695","0,49","115,0",4:14
+Denize Bıraksam,Göksel,1.782.533,63,53,Sen Orda Yoksun,01-01-2015,pop,"0,726","0,754","0,657","125,0",3:34
